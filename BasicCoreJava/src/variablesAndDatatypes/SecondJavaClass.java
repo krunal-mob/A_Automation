@@ -8,13 +8,18 @@ public class SecondJavaClass {
 		
 		int a = 10;
 		int b = 20;
-		String ab="Abhishek";
+		String name= "ABhishek";
+		String name1= new String("ABhishek");
+		
+		System.out.println(name.equalsIgnoreCase(name1));
 		
 		
 		
 		
-		System.out.println(a + b);
-		System.out.println(ab);
+		
+		System.out.println(a + b); //Addition
+		
+		System.out.println(a*b);   // Multiplication
 		
 		
 	
