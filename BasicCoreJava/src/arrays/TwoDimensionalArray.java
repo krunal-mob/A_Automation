@@ -7,6 +7,9 @@ public class TwoDimensionalArray {
 
 		String[][] data = new String[5][2]; // 2 Rows and 5 Columns
 		
+		System.out.println(data.length); // Print the number of rows
+		System.out.println(data[0].length); // Print the number of columns 
+		
 		
 	
 		
@@ -42,8 +45,9 @@ public class TwoDimensionalArray {
 				
 		 {
 				
-				System.out.print(data[i][j]+  " ");
+				System.out.print(data[i][j] + " ");
 			}
+			
 			System.out.println();
 		}
 		

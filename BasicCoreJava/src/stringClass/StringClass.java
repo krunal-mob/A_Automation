@@ -1,23 +1,27 @@
 package stringClass;
 
-public class stringClass {
+public class StringClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		
+		// String -  1. Belongs to java.lang.String 
+		             
+		
 		String name = "ABHISHEK";
 		
 				
-			//1. CharAt 
+			//1. CharAt --> Returns a character at specified index.
 			System.out.println(name.charAt(1));	
 			
-			//2. ToUpperCase/Lower
+			//2. ToUpperCase/ToLowerCase
 			
 			System.out.println(name.toLowerCase());
 			
-			// 3. Split 
-			// 4. Equals --> Should be used for string 
-			// 5. Split 
+			// 3. Split --> WIll return array of String
+			// 4. Equals/EqualsIgnoreCase --> Should be used for string 
+			// 5. trim ---> eliminates white spaces before and after string
 			 
 			String str = "U1,U2,U3";
 			String[] users = str.split(",");
