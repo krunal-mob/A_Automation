@@ -1,6 +1,7 @@
 package loops;
 
 public class For_Loop {
+	// Generally used when the count of the iteration is Known or Fixed.
 
 	public static void main(String[] args) {
 		
