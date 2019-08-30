@@ -27,8 +27,13 @@ public class Limitations_Of_Array {
 		 * Java Collections framework provides :	
 		 * 
 		 * Interfaces : Set , List , Queue , Dequeue 
-		 *  Classes : ArrayList, LinkedList
-		 * ,HashSet,LinkedHashSet , TreeSet, PriorityQueue
+		 *  Classes : [ArrayList, LinkedList , Vector] List
+		 * ,[HashSet,LinkedHashSet , TreeSet] Set , [PriorityQueue , Blocking Queue] Queue 
+		 * 
+		 * --> Queue , Dequeue is almost not used in Selenium
+		 * 
+		 * List - allows Duplicate entries
+		 * Set - Doesn't allow  duplicate entries
 		 * 
 		 * 
 		 * ArrayList : a. Java ArrayList class uses a dynamic array for storing objects

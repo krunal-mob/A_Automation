@@ -5,12 +5,12 @@ public class TwoDimensionalArray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String[][] data = new String[5][2]; // 2 Rows and 5 Columns
+		String data[][] = new String[5][2]; // 2 Rows and 5 Columns
 		
-		System.out.println(data.length); // Print the number of rows
-		System.out.println(data[0].length); // Print the number of columns 
-		
-		
+		System.out.println("The number of rows: "+data.length); // Print the number of rows
+		System.out.println( "The number of columns: "+data[0].length); // Print the number of columns 
+		// As for any row, the columns will be same, data[0].length()/data[1].length() etc.
+		// will be same
 	
 		
 		//Row 1
@@ -45,11 +45,13 @@ public class TwoDimensionalArray {
 				
 		 {
 				
-				System.out.print(data[i][j] + " ");
+				System.out.print(data[i][j] + " $ ");
 			}
 			
 			System.out.println();
 		}
+		
+		
 		
 		
 	}

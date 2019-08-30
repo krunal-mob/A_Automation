@@ -4,7 +4,7 @@ public class Function_6 {
 
 	public static void main(String[] args) {
 		
-		int[] marks= {80,80,80,80,50,70};
+		int[] marks= {80,90,80,80,50,70};
 		
 		
 		String S=finalResult90(marks);
@@ -16,7 +16,7 @@ public class Function_6 {
 
 	
 	
-	public static String finalResult90(int[] arr){
+	public static String finalResult90(int arr[]){
 		
 		int sum=0;
 		
@@ -25,6 +25,7 @@ public class Function_6 {
 		for (int i=0;i<arr.length;i++) {
 			
 			sum=sum+arr[i];  // Sum of the elements of  integer array
+			
 			
 			
 		//	System.out.println(arr[i]);

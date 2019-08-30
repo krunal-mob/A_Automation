@@ -22,6 +22,12 @@ public class For_Loop {
 			
 			System.out.println("The Value is " + i);
 		}
+		
+		for (int i=10; i >=1 ;i--) {
+			
+			System.out.println(i);
+		}
+		
 
 	}
 

@@ -14,6 +14,14 @@ public class OneDimensionalArray {
 		str[5] = "ABhijeet";
 		str[6] = "Tech Bodhi";
 		
+		 System.out.println(str[8]); 
+		
+		
+		// lowest bound/ index = 0
+		// Upper bound/ index = n-1 (n is the size of the array)
+		 // If the we give the index no. that is more than the size of array,  
+		 // Exception : ArrayIndexOutOfBoundsException
+		
 		for(int i=0; i<=6; i++) {
 			
 			
