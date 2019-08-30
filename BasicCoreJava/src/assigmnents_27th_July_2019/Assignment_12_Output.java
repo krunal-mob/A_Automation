@@ -1,4 +1,4 @@
- package assigmnents_27th_July_2019;
+package assigmnents_27th_July_2019;
 
 public class Assignment_12_Output {
 

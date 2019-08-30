@@ -2,7 +2,7 @@ package loops;
 
 public class While_Loop {
 	// Generally used when the count of iteration is not known or fixed
-// Disadvantage --> It will generate infinite loop if not given increment/Decrement.
+
 	public static void main(String[] args) {
 		
 	

@@ -18,18 +18,14 @@ public class Roll_Numbers_Arrays {
 		
 		
 		
-		int strLength= rollNumber.length; // Gives the size of array
+		int strLength= rollNumber.length;
 		
-		int sum=0;
-		for (int i=0; i<strLength; i++) {
+		
+		for (int i=0; i<strLength; i++) 
 	    // for(i=0; i<=7); i++)
 			
-			System.out.print(rollNumber[i] + ",");
-			
-			sum = sum + rollNumber[i]; // Sum of the  integer  array
-		}
-		 System.out.println(" ");
-		System.out.println("The sum of the elements of array is -  " + sum);
+		System.out.print(rollNumber[i] + ",");
+		
 		
 		
 
