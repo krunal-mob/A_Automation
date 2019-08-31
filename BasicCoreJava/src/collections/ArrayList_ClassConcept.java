@@ -16,6 +16,8 @@ public class ArrayList_ClassConcept {
 		A.add('M');
 		A.add(true);
 		
+		System.out.println(A); // Will print the elements in list manner in [ ] box seperated by comma
+		
 	//	A.remove(1); --> To remove any content using index
    //   A.get(i); --> To fetch any value
 		// A.size()--> To get the size of the ArrayList

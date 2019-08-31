@@ -24,36 +24,34 @@ public class ListInterface {
 		 * System.out.println(S); }
 		 */
 		
-		/*
-		 * List<String> L1 = new LinkedList<String>(); // LinkedList<String> --> < > can
-		 * be left blank L1.add("ABHI"); L1.add("ABHISHEK"); L1.add("TECH BODHI");
-		 * 
-		 * for(String S1:L1) { System.out.println(S1);
-		 * 
-		 * 
-		 * }
-		 */
+		
+		  List<String> L1 = new LinkedList<String>(); // LinkedList<String> --> < > can
+		 // be left blank 
+		  L1.add("ABHI"); 
+		  L1.add("ABHISHEK"); 
+		  L1.add("TECH BODHI");
+		  
+		  for(String S1:L1) { System.out.println(S1);
+		  
+		  
+		  }
+		 
 		
 		
-		List<String> L1 = new Vector<String>(); 
+		List<String> L3 = new Vector<String>(); 
 		
 		L1.add("ABHI");
 		L1.add("ABHISHEK");
 		L1.add("TECH BODHI");
 		
-		for(String S1:L1) {
+		for(String S1:L3) {
 			System.out.println(S1);
 	}
 	
 	
-	// Arraylist --> Data Structure 
-	//	--> uses Dynamic Array 
-		// Storing and accessing is best / faster
-		// Manipulations --> Slow
-		//Arraylist increases its size by 50 % when space is over
+	
 		
-		// Linked list --> uses doubly linked list
-		// <Manipulations --> Faster 
+		
 		
 		
 		// Vector --> Synchronized/ Thread safe 

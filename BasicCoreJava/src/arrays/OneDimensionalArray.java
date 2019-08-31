@@ -14,6 +14,9 @@ public class OneDimensionalArray {
 		str[5] = "ABhijeet";
 		str[6] = "Tech Bodhi";
 		
+		
+		
+		
 		for(int i=0; i<=6; i++) {
 			
 			
