@@ -1,8 +1,10 @@
 package collections;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -17,6 +19,8 @@ public class Set_Interface {
 		S.add(21);
 		S.add(22);
 		S.add(23);
+		
+		//I did not see any method to fetch any element form a set.
 		
 		
 		for (Integer i : S)
@@ -68,8 +72,20 @@ public class Set_Interface {
 		}
 		
 		
+		 // how to convert a Set to List 
+		Set<String> Set_to_List =new HashSet<String>();
+		Set_to_List.add("Abhi");
+		Set_to_List.add("Abhi");// add() method returns false for duplicate
+		Set_to_List.add("Abhi");
+		Set_to_List.add("Abhi");
 		
+		System.out.println(Set_to_List);
 		
+		List<String> AL = new ArrayList<String>(Set_to_List);
+		
+		AL.add("Rony");
+		AL.add("Rony");
+		System.out.println(AL);
 		
 	}
 

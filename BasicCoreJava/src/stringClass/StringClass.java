@@ -40,6 +40,15 @@ public class StringClass {
 			//8. Substring (Two functions )
 			//9. Contains
 			
+			String Str = "I am new to Selenium  m";
+			
+			//Occurence of first m
+			System.out.println(Str.indexOf('m'));
+			
+			//Occurence of Second m
+			System.out.println(Str.indexOf('m', 4));
+			System.out.println(Str.indexOf('m', Str.indexOf('m')+1));
+			
 			
 	
 			

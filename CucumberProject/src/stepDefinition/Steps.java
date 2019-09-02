@@ -30,6 +30,11 @@ public class Steps {
 		System.out.println("I logged in successfully");
 		
 	}
+	
+	@When("^I enter (.*?) and (.*?) on login page$")
+	public void i_enter_nameB_and_test_rony_on_login_page(String username, String password) throws Throwable {
+	   System.out.println("Enter username = " + username);
+	   System.out.println("Enter password = " + password);
 
 
 	
@@ -38,4 +43,4 @@ public class Steps {
 	
 	
 	
-}
+	}}
