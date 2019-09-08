@@ -15,16 +15,21 @@ public class SeleniumClass_1 {
      
 		System.out.println("Testing");
 		
-		System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/TechBodhi/Drivers/chromedriver 2");
+		System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/TechBodhi/chromedriver 2");
 		
 		
 		
 		ChromeDriver cd = new ChromeDriver();
-		cd.get("https://www.google.com");
+		cd.get("http://newtours.demoaut.com/");
+	
+		
+		cd.findElement(By.name("userName")).sendKeys("mercury");
+		cd.findElement(By.name("password")).sendKeys("mercury");
+		
+		cd.findElement(By.name("login")).click();
 		
 		
-		
-		//cd.close();
+		cd.close();
 		
 		
 	//	WebDriver driver = new ChromeDriver();
