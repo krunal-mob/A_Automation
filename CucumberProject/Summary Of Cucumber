@@ -1,0 +1,11 @@
+Cucumber - BDD Framework (Behavioral Driven Development)
+
+Gherkin is the language to define BDD . Simple english language.
+
+There are basically 3 components of Cuucumber :
+
+1)  Feature File --  extension is  .feature [gherkin keywords : Given, When, Then , As ,But]
+2)  Step Definition File -- We will be writing our code(Selenium and Annotations) in Step definition FIle
+3)  Test Runner[uses junit] - We have to create a runner class to run your feauture. To generate the output report.
+
+ 

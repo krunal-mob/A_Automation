@@ -15,6 +15,8 @@ public class ObjectArray {
 		
 		System.out.println(objArray[4]);
 		
+		
+		
 		//Enhanced for loop
 		
 		for (Object o:objArray) 

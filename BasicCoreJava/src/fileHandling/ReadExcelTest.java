@@ -8,6 +8,7 @@ import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ReadExcelTest {
 
@@ -31,7 +32,8 @@ public class ReadExcelTest {
 		 *
 		 */
 		
-
+  //   XSSFWorkbook Xwb = new XSSFWorkbook(file);
+    
 		HSSFWorkbook WB = new HSSFWorkbook(file);
 		
 		HSSFSheet sheet=WB.getSheet("Sheet1"); 
@@ -42,7 +44,7 @@ public class ReadExcelTest {
 
 		HSSFCell cell=row.getCell(0);
 
-		String data =cell.getStringCellValue();
+		String data =cell.getStringCellValue(); 
 
 		System.out.println(data);
 

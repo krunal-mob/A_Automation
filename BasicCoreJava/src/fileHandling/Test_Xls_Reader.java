@@ -23,6 +23,7 @@ public class Test_Xls_Reader {
 		for (int j=1 ; j<=column ; j++) {
 			
 			System.out.println(xl.getCellData("Sheet1", i, j)); 
+			
 		}
 		
 		
