@@ -30,7 +30,7 @@ public class Flipkart1 {
 
 		//Thread.sleep(3000);
 
-		cd.findElement(By.xpath("//button[@class='_2AkmmA _29YdH8']")).click();;
+		cd.findElement(By.xpath("//button[@class='_2AkmmA _29YdH8']")).click();
 
 
 		//Actions Class
