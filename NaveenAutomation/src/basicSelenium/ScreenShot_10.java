@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -42,7 +43,7 @@ public class ScreenShot_10 {
 
 
 		//To Take the Screenshots
-		TakesScreenshot ts = (TakesScreenshot) driver; //Type Conversion 
+		TakesScreenshot ts = (TakesScreenshot) driver; //Cast the driver into TakeScreensshot
 		// TakesScreenshot is an Interface
 		//Need to handle IO exception
 		File src = ts.getScreenshotAs(OutputType.FILE); //Store the screenshot in some buffer memory

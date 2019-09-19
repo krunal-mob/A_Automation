@@ -21,6 +21,7 @@ public class ReadPropertiesFIle {
 		prop.load(fIS);
 		
 		System.out.println("The name is :  "+prop.getProperty("name"));
+		System.out.println("The name is :  "+prop.getProperty("Name"));// Give "Null"
 		System.out.println("The age is : " + prop.getProperty("age"));
 	} 
 	
