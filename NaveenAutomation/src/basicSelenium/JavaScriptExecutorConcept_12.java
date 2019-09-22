@@ -42,6 +42,7 @@ public class JavaScriptExecutorConcept_12 {
 	}
 
 	//We can perform the following actions using JavaScriptExecutor Interface
+	
 	//1. Highlight an Element
 	//2. DrawBorder around an Element
 	//3. Generate custom Alert during Test Execution

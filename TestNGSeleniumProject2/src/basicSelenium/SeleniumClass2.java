@@ -16,7 +16,7 @@ public class SeleniumClass2 { //xPath
 	@Test
 	public void test2() throws InterruptedException{
 
-		System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/TechBodhi/chromedriver 2");
+		System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/TechBodhi/Drivers/chromedriver 2");
 
 		ChromeDriver cd = new ChromeDriver();
 

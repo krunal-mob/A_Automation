@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basicSelenium.HandeleWindowPopUp">
+      <class name="basicSelenium.WebTableConcepts">
         <methods>
-          <include name="testMethodWindow"/>
+          <include name="testMethodSWT"/>
         </methods>
-      </class> <!-- basicSelenium.HandeleWindowPopUp -->
+      </class> <!-- basicSelenium.WebTableConcepts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
