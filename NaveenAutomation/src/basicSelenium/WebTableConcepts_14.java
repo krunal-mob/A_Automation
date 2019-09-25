@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-public class WebTableConcepts{
+public class WebTableConcepts_14{
 
 
 	@Test
@@ -53,7 +53,7 @@ public class WebTableConcepts{
 
 
 		//1. Print all headers of web table:
-		WebElement table = driver.findElement(By.xpath("//table[@name='BookTable']"));
+		WebElement table = driver.findElement(By.xpath("(//table[@name='BookTable'])"));
 
 		List<WebElement> rows = table.findElements(By.tagName("tr"));
 
@@ -144,7 +144,18 @@ public class WebTableConcepts{
 
 		System.out.println("The total price is : " + totalPrice);
 
+
+		//6. Retrieving cell value of specific column of specific row
+		//We can locate a particular cell based on row and column number 
+		// driver.findElement(By.xpath("//table[@name='BookTable']/tbody/tr[2]/td[3]"));
+
 	}		
+
+	//7. Print all the data of the table 
+
+
+
+
 
 }
 
