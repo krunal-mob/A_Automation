@@ -1,8 +1,8 @@
-package testNG;
+package testNG_1;
 
 import org.testng.annotations.Test;
 
-public class InvocationCountTest {
+public class InvocationCountTest_4 {
 
 	//invocationCount	
 

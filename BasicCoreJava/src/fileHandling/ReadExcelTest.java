@@ -45,6 +45,7 @@ public class ReadExcelTest {
 		HSSFCell cell=row.getCell(0);
 
 		String data =cell.getStringCellValue(); 
+		
 
 		System.out.println(data);
 
