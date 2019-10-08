@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGDataProvider_3.DataProviderTest">
+      <class name="basicSelenium.MozillaFireFoxBrowser">
         <methods>
-          <include name="testMethodDP" invocation-numbers="0"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="browserInitialization"/>
         </methods>
-      </class> <!-- testNGDataProvider_3.DataProviderTest -->
+      </class> <!-- basicSelenium.MozillaFireFoxBrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

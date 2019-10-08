@@ -14,6 +14,7 @@ public class For_Loop {
 		}
 		
 		System.out.println("Loop 1 ends");
+		
 		System.out.println("Loop 2 Starts");
 		
 		for ( int i=0; i<=40;i=i+2) 

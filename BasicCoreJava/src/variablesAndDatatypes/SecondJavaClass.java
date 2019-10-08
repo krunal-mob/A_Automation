@@ -9,7 +9,7 @@ public class SecondJavaClass {
 		int a = 10;
 		int b = 20;
 		String name= "ABhishek";
-		String name1= new String("ABhishek");
+		String name1= new String("ABhiShek");
 		
 		System.out.println(name.equalsIgnoreCase(name1));
 		
