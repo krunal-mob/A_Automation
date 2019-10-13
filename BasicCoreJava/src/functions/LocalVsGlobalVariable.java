@@ -1,4 +1,4 @@
-package variablesAndDatatypes;
+package functions;
 
 public class LocalVsGlobalVariable {
 	

@@ -1,6 +1,6 @@
 package java_ProgrammingInterview_Questions;
 
-public class Factorial {
+public class Factorial_9 {
 	
 	//Without using recursive --> Normal for  loop
 	public static  int factorial(int num) {

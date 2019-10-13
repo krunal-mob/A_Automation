@@ -1,6 +1,6 @@
 package oops.Inheritance;
 
-public class Smartphone {
+public class Smartphone extends Mobile{
 
 public void internet() {
 	

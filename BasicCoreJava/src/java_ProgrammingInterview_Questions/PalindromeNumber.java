@@ -10,7 +10,7 @@ public class PalindromeNumber {
 	public static void main(String[] args) {
 
 
-		PalindromeNumber.isPalindrome(10081);
+		         isPalindrome(10081);
 
 	}
 

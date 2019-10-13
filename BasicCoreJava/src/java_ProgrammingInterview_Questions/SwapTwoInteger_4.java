@@ -1,6 +1,6 @@
 package java_ProgrammingInterview_Questions;
 
-public class SwapTwoInteger {
+public class SwapTwoInteger_4 {
 
 	public static void main(String[] args) {
 		
@@ -21,6 +21,7 @@ public class SwapTwoInteger {
 		z = x; // z=10
 		x = y;// x= 20
 		y = z; // y==10
+		
 		
 		// Without using a third variable . Using '+'
 		

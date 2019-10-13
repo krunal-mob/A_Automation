@@ -1,6 +1,6 @@
 package java_ProgrammingInterview_Questions;
 
-public class HowToReverseAString {
+public class HowToReverseAString_6 {
 
 	
 	

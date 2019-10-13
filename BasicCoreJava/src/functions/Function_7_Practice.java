@@ -4,10 +4,10 @@ public class Function_7_Practice {
 
 	public static void main(String[] args) {
 		
-		int[] marks= {35,90,34,80,50,70};
+		int[] marks= {100,35,100, 35, 35,};
 		
 		
-		String S=finalResult90(marks);
+		String S=finalResult(marks);
 		System.out.println(S);
 		
 		// TODO Auto-generated method stub
@@ -16,9 +16,10 @@ public class Function_7_Practice {
 
 	
 	
-	public static String finalResult90(int arr[]){
+	public static String finalResult(int arr[]){
 		
 		int sum=0;
+		
 		String res=""; 
 		
 		
@@ -44,7 +45,9 @@ public class Function_7_Practice {
 		
 		
 		        System.out.println("The sum is " +sum);
-				double percentage =(sum*100)/600;
+				
+		        double percentage =(sum*100)/600;
+				
 				System.out.println("The Percentage is "+percentage);
 				
 				

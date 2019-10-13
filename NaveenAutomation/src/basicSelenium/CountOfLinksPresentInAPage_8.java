@@ -1,5 +1,6 @@
 package basicSelenium;
 
+import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -45,6 +46,7 @@ public class CountOfLinksPresentInAPage_8 {
 
 		System.out.println("The Total number of links present on the page is:  " + linkCount);
 
+		
 		for(WebElement W : allLinks) {
 
 			System.out.println("The name of the link is:  "+ W.getText());

@@ -32,11 +32,12 @@ public class HashMap_ClassConcept {
 		
 		// To traverse a HashMap , we use Entry Interface.
 		
-		for(Entry e : hm.entrySet()) {
+		for(Entry<Integer, String> e : hm.entrySet()) {
 			
 			System.out.println(e);
-			
+			System.out.println("$$$$$$$$$$");
 			System.out.println(e.getKey() + "   " + e.getValue());
+			
 			 // getKey()  and getValue() present inside Entry Interface.
 		}
 		

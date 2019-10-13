@@ -5,7 +5,7 @@ public class TwoDimensionalArray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String[][] data = new String[5][2]; // 2 Rows and 5 Columns
+		String[][] data = new String[5][2]; // 5 Rows and 2 Column
 		
 		System.out.println(data.length); // Print the number of rows
 		System.out.println(data[0].length); // Print the number of columns 
@@ -38,9 +38,9 @@ public class TwoDimensionalArray {
 		data[4][0]= "U5";
 		data[4][1]= "P5";
 		
-		for (int i=0 ;i<=4 ; i++ )
+		for (int i=0 ;i<data.length ; i++ )
 		{
-			for (int j=0 ; j<=1; j++) // j<data[0].length 
+			for (int j=0 ; j<data[0].length; j++) // j<data[0].length 
 				
 				
 		 {

@@ -21,7 +21,6 @@ public class Function_6 {
 		int sum=0;
 		
 		
-		
 		for (int i=0;i<arr.length;i++) {
 			
 			sum=sum+arr[i];  // Sum of the elements of  integer array
@@ -32,7 +31,9 @@ public class Function_6 {
 			
 		}
 		System.out.println(sum);
+		
 		double percentage =(sum*100)/600;
+		
 		System.out.println(percentage);
 		
 		

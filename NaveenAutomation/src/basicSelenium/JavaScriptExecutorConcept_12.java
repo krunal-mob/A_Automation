@@ -117,12 +117,12 @@ public class JavaScriptExecutorConcept_12 {
 	// Scroll Page Down
 	
 	public static void scrollPageDown(WebDriver driver){
-    	JavascriptExecutor js = ((JavascriptExecutor) driver);
+    	JavascriptExecutor js = (JavascriptExecutor) driver;
     	js.executeScript("scroll(0,900)");
     }
 	//Scroll Into View till that element is found
 	public static void scrollIntoView(WebElement element, WebDriver driver){
-    	JavascriptExecutor js = ((JavascriptExecutor) driver);
+    	JavascriptExecutor js = (JavascriptExecutor) driver;
     	js.executeScript("arguments[0].scrollIntoView(true);", element);
     }
 

@@ -3,8 +3,7 @@ package assigmnents_27th_July_2019;
 public class Assignment11_Output { //Doubt
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+			
 		
 		int i=2;
 		

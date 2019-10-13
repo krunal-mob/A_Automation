@@ -26,7 +26,7 @@ public class HashTable_ClassConcept {
 		//always used inside  enhanced for loop
 
 		//Prints all the Keys
-		Set S=ht.keySet();
+		Set<String> S=ht.keySet();
 		System.out.println("The keys are  "+S);// Gives list view
 
 		Iterator<String> I = S.iterator();
@@ -37,7 +37,7 @@ public class HashTable_ClassConcept {
 		}
 
 		//Prints all the Values via Enumeration (Similar to Iterator)
-		Enumeration e = ht.elements();
+		Enumeration<Character> e = ht.elements();
 
 		while(e.hasMoreElements()) {
 
@@ -48,7 +48,7 @@ public class HashTable_ClassConcept {
 
          //Traverse the HashTable
 		
-		for(Entry E : ht.entrySet()) {
+		for(Entry<String, Character> E : ht.entrySet()) {
 			
 			System.out.println("The Key is  "+ E.getKey());
 			System.out.println("The Value is " + E.getValue());

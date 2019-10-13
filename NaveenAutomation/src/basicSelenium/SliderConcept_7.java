@@ -37,11 +37,11 @@ public class SliderConcept_7 {
 		
 		
 		//Create the object of Actions Class and pass the driver as parameter
-		Actions actionS = new Actions(driver);
+		Actions action = new Actions(driver);
 		
 		WebElement slideIcon = driver.findElement(By.xpath("(//div[@class='_3aQU3C'])[1]"));
 		
-		actionS.dragAndDropBy(slideIcon, 50, 0).build().perform();
+		action.dragAndDropBy(slideIcon, 50, 0).build().perform();
 		
 		
 		

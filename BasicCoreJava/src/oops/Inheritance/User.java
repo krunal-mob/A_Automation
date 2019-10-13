@@ -7,6 +7,8 @@ public class User {
 
 		Smartphone S=new Smartphone();
 		S.internet();
+		S.calling();
+		S.texting();
 		
 		
 		Mobile M = new Mobile();
@@ -15,7 +17,8 @@ public class User {
 		
 		
 		Telephone T = new Telephone();
-		T.calling();
+		T.calling(); 
+		
 		
 		 
 	}

@@ -13,7 +13,8 @@ public class OneDimensionalArray {
 		str[4]= "Rony";
 		str[5] = "ABhijeet";
 		str[6] = "Tech Bodhi";
-
+		
+	 
 
 
 
@@ -34,11 +35,11 @@ public class OneDimensionalArray {
 		System.out.println(phone[0]);
 
 
-		int [] size = {10,20,30 ,40}; // Third way of creating array
+		int [] a = {10,20,30 ,40}; // Third way of creating array
 
-		for (int i=0;i<size.length;i++) {
+		for (int i=0;i<a.length;i++) {
 
-			System.out.println(size[i]);
+			System.out.println(a[i]);
 		}
 
 	}

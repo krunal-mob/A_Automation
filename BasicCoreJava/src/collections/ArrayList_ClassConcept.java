@@ -16,12 +16,13 @@ public class ArrayList_ClassConcept {
 		A.add(27);
 		A.add('M');
 		A.add(true);
+		
 
 		System.out.println(A); // Will print the elements in list manner in [ ] box seperated by comma
 
-		//	A.remove(1); --> To remove any content using index
+		//	A.remove(i); --> To remove any content using index
 		//   A.get(i); --> To fetch any value
-		// A.size()--> To get the size of the ArrayList
+		// A.size() --> To get the size of the ArrayList
 
 		System.out.println("Printing Using  normal for loop");
 		System.out.println("****************************");
@@ -95,6 +96,8 @@ public class ArrayList_ClassConcept {
 		E.add(E1);
 		E.add(E2);
 
+		System.out.println("The age of E1 is " + E1.age);
+		System.out.println("The age of E2 is " + E2.age);
 
 
 

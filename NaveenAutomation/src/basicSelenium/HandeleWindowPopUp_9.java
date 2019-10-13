@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class HandeleWindowPopUp {
+public class HandeleWindowPopUp_9{
 
 	//1. ALerts -- JavaScript Popup --> Alert Api (Accept, Dismiss)
 	//2. File Upload Pop up --> Browse / Upload Button
@@ -81,7 +81,8 @@ public class HandeleWindowPopUp {
 		/*
 		 * while(it.hasNext()) {
 		 * 
-		 * driver.switchTo().window(it.next()); System.out.println("Title is: " +
+		 * driver.switchTo().window(it.next()); 
+		 * System.out.println("Title is: " +
 		 * driver.getTitle());
 		 * 
 		 * }

@@ -3,9 +3,9 @@ package oops.Abstraction;
 
 public interface RBI {
 	
-	public void homeLoan();
-	public void carLoan();
-	public void educationLoan ();
+	public abstract void homeLoan();
+	public abstract void carLoan();
+	public abstract void educationLoan ();
 	
 
 }

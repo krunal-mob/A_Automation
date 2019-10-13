@@ -9,6 +9,7 @@ public class CheckedException {
 		// TODO Auto-generated method stub
 
 		System.out.println("name");
+		
 		Thread.sleep(600); // Checked exceptions - at the time of compiling 
 		
 		UncheckedExceptions.test();

@@ -1,18 +1,18 @@
 package java_ProgrammingInterview_Questions;
 
-public class SmallestAndLargestNumberInArray {
+public class SmallestAndLargestNumberInArray_1 {
 
 	public static void main(String[] args) {
 
 
 
 
-		int numbers[] = {1,-1000 ,20 , -90 , 100};
+		int numbers[] = {1,-1000 ,20 , -90 , 100, 1000};
 
 		int largest = numbers[0];
 		int smallest = numbers[0];
 
-		for (int i =1 ; i<numbers.length; i++)
+		for (int i =0 ; i<numbers.length; i++)
 		{
 			if (numbers[i] > largest) {
 				largest = numbers[i];

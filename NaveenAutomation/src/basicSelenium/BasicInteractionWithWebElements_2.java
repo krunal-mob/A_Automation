@@ -60,7 +60,7 @@ public class BasicInteractionWithWebElements_2 {
 		selectDropdown.selectByValue("1-3");
 		Thread.sleep(2000);
 		
-		selectDropdown.selectByValue("5-7");
+		selectDropdown.selectByVisibleText("5-7");
 		
 	
 		//Click on  CheckBoxes --> Select Functional testing
