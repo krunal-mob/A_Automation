@@ -49,7 +49,7 @@ public class HandlingCalenderUsingJSExecutor_16 {
 
 	public static void selectDateByJS(WebDriver driver , WebElement element , String date) {
 
-		JavascriptExecutor js = ((JavascriptExecutor)driver);
+		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].setAttribute('value','"+ date +"');", element);
 
 	}

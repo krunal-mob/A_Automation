@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class ExceptionTimeOutTest_5 {
 
-	//this will stop the execution after 2 secs.
+	//this will stop the execution after the specified tie  secs.
 	
 	  @Test(priority = 2,timeOut = 10)
 	  

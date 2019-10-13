@@ -1,6 +1,6 @@
 package java_ProgrammingInterview_Questions;
 
-public class HowToReverseAnInteger {
+public class HowToReverseAnInteger_7 {
 
 	
 	//Two ways 1> Learn the below code 

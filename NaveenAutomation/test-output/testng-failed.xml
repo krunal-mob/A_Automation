@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="basicSelenium.MozillaFireFoxBrowser">
+      <class name="testNG_1.ExceptionTimeOutTest_5">
         <methods>
-          <include name="browserInitialization"/>
+          <include name="timeOutTest"/>
         </methods>
-      </class> <!-- basicSelenium.MozillaFireFoxBrowser -->
+      </class> <!-- testNG_1.ExceptionTimeOutTest_5 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
