@@ -1,9 +1,9 @@
-package java_ProgrammingInterview_Questions;
+package Arrays;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class HowToFindDuplicateElementsInArray_2 {
+public class HowToFindDuplicateElementsInArray {
 
 	public static void main(String[] args) {
 
@@ -13,7 +13,7 @@ public class HowToFindDuplicateElementsInArray_2 {
 		int arrSize = progLanguage.length;
 
 		
-		for(int i = 0 ; i<progLanguage.length; i++) {
+		for(int i = 0 ; i<arrSize; i++) {
 
 			for(int j=i+1 ; j<arrSize ; j++) {
 

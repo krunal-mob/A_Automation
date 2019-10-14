@@ -1,6 +1,6 @@
-package java_ProgrammingInterview_Questions;
+package General;
 
-public class HowToFindPrimeNumbers_8 {
+public class HowToFindPrimeNumbers {
 
 	// Prime Number :  a number that is divisible only by itself and 1 (e.g. 2, 3, 5, 7, 11).		
 	// 2 is the lowest prime number
@@ -15,7 +15,7 @@ public class HowToFindPrimeNumbers_8 {
 			return false;
 		}
 
-		for (int i = 2 ; i< num ; i++) {
+		for (int i = 2 ; i<num ; i++) {
 
 			if(num % i ==0) {
 				return false;
@@ -29,7 +29,7 @@ public class HowToFindPrimeNumbers_8 {
 	public static void main(String[] args) {
 
 
-		boolean flag = isPrime(3);
+		boolean flag = isPrime(2);
 		
 		if (flag) {
 			

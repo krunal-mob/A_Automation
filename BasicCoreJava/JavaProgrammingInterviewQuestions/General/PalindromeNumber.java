@@ -1,4 +1,4 @@
-package java_ProgrammingInterview_Questions;
+package General;
 
 public class PalindromeNumber {
 

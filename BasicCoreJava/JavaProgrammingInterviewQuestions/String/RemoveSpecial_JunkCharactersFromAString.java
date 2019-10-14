@@ -1,6 +1,6 @@
-package java_ProgrammingInterview_Questions;
+package String;
 
-public class RemoveSpecial_JunkCharactersFromAString_3{
+public class RemoveSpecial_JunkCharactersFromAString{
 
 	
 	//Use Regular Expressions

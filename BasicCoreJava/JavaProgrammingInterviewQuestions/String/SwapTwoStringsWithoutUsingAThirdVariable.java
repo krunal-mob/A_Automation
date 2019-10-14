@@ -1,6 +1,6 @@
-package java_ProgrammingInterview_Questions;
+package String;
 
-public class SwapTwoStringsWithoutUsingAThirdVariable_5 {
+public class SwapTwoStringsWithoutUsingAThirdVariable {
 
 	public static void main(String[] args) {
 

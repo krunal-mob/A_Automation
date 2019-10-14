@@ -1,6 +1,6 @@
-package java_ProgrammingInterview_Questions;
+package General;
 
-public class SwapTwoInteger_4 {
+public class SwapTwoInteger {
 
 	public static void main(String[] args) {
 		

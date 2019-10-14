@@ -1,6 +1,6 @@
-package java_ProgrammingInterview_Questions;
+package Arrays;
 
-public class SmallestAndLargestNumberInArray_1 {
+public class SmallestAndLargestNumberInArray {
 
 	public static void main(String[] args) {
 
