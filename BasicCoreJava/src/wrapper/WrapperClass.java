@@ -15,14 +15,14 @@ public class WrapperClass {
 		System.out.println(i+200);
 		// Wrapper class -->  Integer , Double , Character, Boolean
 		
-		//String to Double
+		//stringProgramming to Double
 		
 		String s1= "12.33";
 		double d= Double.parseDouble(s1); // Converts string to double.
 		System.out.println(d + 11.24);
 		
 		
-	   // String to boolean
+	   // stringProgramming to boolean
 		
 		String s3= "True";
 		

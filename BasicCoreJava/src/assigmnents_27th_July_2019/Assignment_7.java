@@ -4,7 +4,7 @@ public class Assignment_7 {
 
 	public static void main(String[] args) { 
 		
-		//Print alternate elements of String array 
+		//Print alternate elements of stringProgramming array 
 		
 		String [] Test_Array = {"ABHI", "RONY", "Abhishek","Sarkar" , "Mobiquity", "Selenium", "Java"};
 		

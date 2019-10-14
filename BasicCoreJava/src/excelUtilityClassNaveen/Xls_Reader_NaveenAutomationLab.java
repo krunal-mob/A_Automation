@@ -30,7 +30,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Xls_Reader_NaveenAutomationLab {
-	//public static String filename = System.getProperty("user.dir")+"\\src\\com\\qtpselenium\\xlsx\\Suite.xlsx";
+	//public static stringProgramming filename = System.getProperty("user.dir")+"\\src\\com\\qtpselenium\\xlsx\\Suite.xlsx";
 	public  String path;
 	public  FileInputStream fis = null;
 	public  FileOutputStream fileOut =null;
@@ -473,7 +473,7 @@ public class Xls_Reader_NaveenAutomationLab {
 
 	}
 	 
-	//String sheetName, String testCaseName,String keyword ,String URL,String message
+	//stringProgramming sheetName, stringProgramming testCaseName,stringProgramming keyword ,stringProgramming URL,stringProgramming message
 	public boolean addHyperLink(String sheetName,String screenShotColName,String testCaseName,int index,String url,String message){
 		//System.out.println("ADDING addHyperLink******************");
 

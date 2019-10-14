@@ -1,4 +1,4 @@
-package Arrays;
+package arraysProgramming;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -6,6 +6,8 @@ import java.util.Set;
 public class HowToFindDuplicateElementsInArray {
 
 	public static void main(String[] args) {
+		
+	 
 
 		String  progLanguage[] = {"java", "python" , "ruby" , "java", "python", "ruby"};
 
@@ -42,4 +44,4 @@ public class HowToFindDuplicateElementsInArray {
 
 	}
 
-}
+	}

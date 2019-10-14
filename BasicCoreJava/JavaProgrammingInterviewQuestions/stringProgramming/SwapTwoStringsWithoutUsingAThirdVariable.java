@@ -1,4 +1,4 @@
-package String;
+package stringProgramming;
 
 public class SwapTwoStringsWithoutUsingAThirdVariable {
 

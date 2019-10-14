@@ -1,11 +1,11 @@
-package General;
+package generalProgramming;
 
 public class PalindromeNumber {
 
 
 	// This is the logic for Palindrome number
 
-	// For String , just print the reverse and if the reverse of string is equal to original string 
+	// For stringProgramming , just print the reverse and if the reverse of string is equal to original string 
 
 	public static void main(String[] args) {
 

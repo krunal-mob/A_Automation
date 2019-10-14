@@ -6,7 +6,7 @@ public class StringClass {
 		// TODO Auto-generated method stub
 
 
-		// String -  1. Belongs to java.lang.String 
+		// stringProgramming -  1. Belongs to java.lang.String 
 
 
 		String name = "ABHISHEK";
@@ -19,7 +19,7 @@ public class StringClass {
 
 		System.out.println(name.toLowerCase());
 
-		// 3. Split --> WIll return array of String
+		// 3. Split --> WIll return array of stringProgramming
 		// 4. Equals/EqualsIgnoreCase --> Should be used for string 
 		// 5. trim ---> eliminates white spaces before and after string
 

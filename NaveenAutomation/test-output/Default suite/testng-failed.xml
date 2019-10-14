@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG_1.ExceptionTimeOutTest_5">
+      <class name="testNG_1.GoogleTest_2">
         <methods>
-          <include name="timeOutTest"/>
+          <include name="logoTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- testNG_1.ExceptionTimeOutTest_5 -->
+      </class> <!-- testNG_1.GoogleTest_2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

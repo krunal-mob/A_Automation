@@ -10,7 +10,7 @@ public class ListInterface {
 	public static void main(String[] args) {
 	
 		/*
-		 * List<String> L = new ArrayList<>(); // Generics -
+		 * List<stringProgramming> L = new ArrayList<>(); // Generics -
 		 * 
 		 * L.add("Abhishek"); 
 		 * L.add("Abhi"); 
@@ -19,13 +19,13 @@ public class ListInterface {
 		 * 
 		 * // Easiest is to use is Enhanced for loop
 		 * 
-		 * for (String S : L) {
+		 * for (stringProgramming S : L) {
 		 * 
 		 * System.out.println(S); }
 		 */
 		
 		
-		  List<String> L1 = new LinkedList<String>(); // LinkedList<String> --> < > can
+		  List<String> L1 = new LinkedList<String>(); // LinkedList<stringProgramming> --> < > can
 		 // be left blank 
 		  L1.add("ABHI"); 
 		  L1.add("ABHISHEK"); 

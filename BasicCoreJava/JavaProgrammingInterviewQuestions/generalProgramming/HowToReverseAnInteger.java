@@ -1,10 +1,10 @@
-package General;
+package generalProgramming;
 
 public class HowToReverseAnInteger {
 
 	
 	//Two ways 1> Learn the below code 
-	//2> Convert to String/StringBuffer using Wrapper Class and the apply string reverse or 
+	//2> Convert to stringProgramming/StringBuffer using Wrapper Class and the apply string reverse or 
 	// reverse method from StringBuffer.
 	//
 	

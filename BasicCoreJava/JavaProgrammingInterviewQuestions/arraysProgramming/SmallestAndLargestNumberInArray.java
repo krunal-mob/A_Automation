@@ -1,4 +1,4 @@
-package Arrays;
+package arraysProgramming;
 
 public class SmallestAndLargestNumberInArray {
 
