@@ -1,4 +1,4 @@
-package assigmnents_27th_July_2019;
+package arraysProgramming;
 
 public class Assignment_7 {
 

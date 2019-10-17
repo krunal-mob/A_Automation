@@ -1,6 +1,6 @@
-package assigmnents_27th_July_2019;
+package generalProgramming;
 
-public class Assignment_2  // Write a for loop to print even numbers b/w 1 to 100
+public class PrintEvenNumber1_100  // Write a for loop to print even numbers b/w 1 to 100
 { 
 
 	public static void main(String[] args) {
