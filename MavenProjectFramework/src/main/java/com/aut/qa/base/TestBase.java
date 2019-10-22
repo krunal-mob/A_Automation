@@ -9,64 +9,86 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.safari.SafariDriver;
 
 import com.aut.qa.utility.TestUtil;
 
 
 public class TestBase {
 
-public	static WebDriver driver;
-	static Properties prop;
+	public	static WebDriver driver;
+
+	static public Properties prop;
 
 	//Constructor
 	public TestBase()  {
 
-
-		
-
-		
 		try {
-			
+
 			prop = new Properties();
-			FileInputStream fis = new FileInputStream("/Users/asarkar/Desktop/GitHub_Project/Automation/NaveenAutomation/src/basicSelenium/config.properties");
-		
+			FileInputStream fis = new FileInputStream("/Users/asarkar/Desktop/GitHub_Project/Automation/MavenProjectFramework/src/main/java/com/aut/qa/config/config.properties");
+
 			try {
+
 				prop.load(fis);
+				
+				System.out.println(prop.getProperty("browser"));
+
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
+
 				e.printStackTrace();
 			}
-		
-		
+
+
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
-		
-
 	}
-	
+
 	public static void initialization() {
 
-		String browserName = prop.getProperty("browser");
+		String BROWSER = prop.getProperty("browser");
+		
 
-		if (browserName.equalsIgnoreCase("chrome")) {
+		if (BROWSER.equalsIgnoreCase("chrome")) {
 
-			System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/GitHub_Project/Automation/MavenProjectFramework/Drivers/chromedriver 2");
+			System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/TechBodhi/Drivers/chromedriver 2");
 
 			driver = new ChromeDriver();
 		}
-		
-		else if(browserName.equalsIgnoreCase("FF")) {
-			
-			System.setProperty("webdriver.firefox.marionette", "/Users/asarkar/Desktop/GitHub_Project/Automation/MavenProjectFramework/Drivers/geckodriver");
-			
+
+		else if(BROWSER.equalsIgnoreCase("FF")) {
+
+			System.setProperty("webdriver.gecko.marionette", "/Users/asarkar/Desktop/TechBodhi/Drivers/geckodriver");
+
 			driver = new FirefoxDriver();
 		}
 
+		else if (BROWSER.equalsIgnoreCase("safari")) {
 
-		
+
+			driver = new SafariDriver();
+
+		}
+
+		else if (BROWSER.equalsIgnoreCase("opera")) {
+
+
+			System.setProperty("webdriver.opera.driver", "/Users/asarkar/Desktop/TechBodhi/Drivers/operadriver");		
+
+			driver = new OperaDriver();
+
+		}
+		else 
+		{
+
+			System.out.println("This is an INVALID BROWSER");
+		}
+
+
+
 		driver.manage().deleteAllCookies();
 
 		driver.manage().window().maximize();
@@ -74,10 +96,10 @@ public	static WebDriver driver;
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT ,TimeUnit.SECONDS);
 
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
-		
-		
+
+
 		String URL = prop.getProperty("url");
-		
+
 		driver.get(URL);
 
 

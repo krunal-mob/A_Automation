@@ -14,14 +14,17 @@ public class HowToFindPrimeNumbers {
 
 			return false;
 		}
+		else {
 
-		for (int i = 2 ; i<num ; i++) {
+			for (int i = 2 ; i<num ; i++) {
 
-			if(num % i ==0) {
-				return false;
+				if(num % i ==0) {
+					return false;
+				}
+
 			}	
 		}
-     return true;
+		return true;
 
 
 	}
@@ -30,15 +33,14 @@ public class HowToFindPrimeNumbers {
 
 
 		boolean flag = isPrime(2);
-		
 		if (flag) {
-			
+
 			System.out.println("The number is Prime");
 		}
-          
+
 		else 
 		{
-			
+
 			System.out.println("The numner is not Prime");
 		}
 

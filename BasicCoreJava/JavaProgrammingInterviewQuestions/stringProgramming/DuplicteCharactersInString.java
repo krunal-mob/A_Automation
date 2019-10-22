@@ -42,7 +42,7 @@ public class DuplicteCharactersInString {
 			
 			
 			if (e.getValue()>1) {
-				System.out.println("The repeated character is  -- "+e.getKey());
+				System.out.println("The repeated character is  -- "+e.getKey() + "The Count is ");
 				
 			}
 		}

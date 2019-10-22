@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="excelUtilityClassNaveen.Parameterization">
+      <class name="practiceJavaPrograms.Test">
         <methods>
-          <include name="testParameterize"/>
+          <include name="testMethod"/>
         </methods>
-      </class> <!-- excelUtilityClassNaveen.Parameterization -->
+      </class> <!-- practiceJavaPrograms.Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
