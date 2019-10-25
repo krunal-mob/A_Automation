@@ -12,14 +12,18 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
+
 import com.aut.qa.utility.TestUtil;
+
 
 
 public class TestBase {
 
+
 	public	static WebDriver driver;
 
 	static public Properties prop;
+	
 
 	//Constructor
 	public TestBase()  {
@@ -42,7 +46,9 @@ public class TestBase {
 
 
 		} catch (FileNotFoundException e) {
-			e.printStackTrace();
+			//e.printStackTrace();
+			
+			System.out.println("tushar");
 		}
 
 	}
@@ -54,7 +60,7 @@ public class TestBase {
 
 		if (BROWSER.equalsIgnoreCase("chrome")) {
 
-			System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/TechBodhi/Drivers/chromedriver 2");
+			System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/TechBodhi/Drivers/chromedriver 3");
 
 			driver = new ChromeDriver();
 		}
@@ -87,7 +93,11 @@ public class TestBase {
 			System.out.println("This is an INVALID BROWSER");
 		}
 
-
+		
+		
+		
+		
+		
 
 		driver.manage().deleteAllCookies();
 

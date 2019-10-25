@@ -1,7 +1,7 @@
 package com.aut.qa.pages;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -12,8 +12,17 @@ public class LoginPage1  extends TestBase{
 	//Page Factory - OR
 
 	//Step 1 --> Create  the elements of the page
+	
 	@FindBy(name = "username")
+	@CacheLookup
 	WebElement userName;
+	
+//	In other words, any attribute marked [@sCacheLookup] will not be searched over and 
+//	over again – this is especially useful for elements that are always going to be 
+//	there (not always true for AJAX apps). It means the elements of the page will be 
+//	cached once searched. All elements used in the HomePage & LoginPage class are static 
+//	and are always present. So it is better to cache objects and save execution time of 
+//	the test run.
 
 	@FindBy(name =  "password")
 	WebElement passWord;

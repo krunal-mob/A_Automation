@@ -7,6 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="verifyContactsLabel"/>
           <include name="selectContactsName"/>
         </methods>
       </class> <!-- com.aut.qa.testScripts.ContactsPageTest -->

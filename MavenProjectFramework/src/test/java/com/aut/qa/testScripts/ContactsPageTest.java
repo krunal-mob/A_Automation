@@ -18,52 +18,63 @@ public class ContactsPageTest extends TestBase{
 	TestUtil testUtil;
 	ContactsPage contactPage;
 
-
-
 	public ContactsPageTest() {
 
 		super();
+
+		//System.out.println("2"); 
 	}
 
 	@BeforeMethod
 	public void setUp() throws InterruptedException {
 
+		//System.out.println("1"); 
 		initialization();
+
 		login = new LoginPage1();
 		homePage = login.login(prop.getProperty("username"), prop.getProperty("password"));
 		testUtil= new TestUtil();
 		contactPage = new ContactsPage();
-		
+
 		testUtil.switchToMainPanelFrame(); 
 
-		contactPage = homePage.clickOnContactsLink();  
 		
-		
+
+
 
 
 	}
-	
-	@Test(priority = 1)
+
+	@Test(priority = 0)
 	public void verifyContactsLabel() {
-		
-		
+
+		homePage.clickOnContactsLink();  
 		boolean flag =contactPage.verifyContactsLabel();
 		Assert.assertTrue(flag, "Contacts label is missing in page");
 	}
-	
-	
-	@Test(priority = 2 , enabled=true)
+
+
+	@Test(priority = 1)
 	public void selectContactsName() throws InterruptedException {
-		
+
+		 homePage.clickOnContactsLink();  
 		contactPage.selectContactsByName("Test Test Pikachoo");
-		Thread.sleep(5000);
 		
+		contactPage.selectContactsByName("Benchdod Pikachoo");
+		
+
 	}
-	 
-	
-	
-	
-	
+
+	@Test (priority = 2)
+	public void validateCreateNewContact() throws InterruptedException {
+
+		homePage.clickONNewCOntactLink();
+
+		contactPage.createNewCOntact("Mr.","Abhi","Sarkar","pikachoo");
+
+	}
+
+
 
 
 	@AfterMethod

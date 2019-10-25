@@ -1,6 +1,7 @@
 package com.aut.qa.pages;
 
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -20,6 +21,9 @@ public class HomePage2 extends TestBase {
 
 	@FindBy(linkText = "Tasks")
 	WebElement tasksLink;
+
+	@FindBy(xpath = "//a[contains(text(),'New Contact')]")
+	WebElement newContactLink;
 
 
 	public HomePage2() {
@@ -70,5 +74,17 @@ public class HomePage2 extends TestBase {
 		return new TasksPage();
 	}
 
+	public void clickONNewCOntactLink() throws InterruptedException  {
+
+		Actions act = new Actions(driver);
+		
+		act.moveToElement(contactLink).build().perform();
+		
+		
+		
+		newContactLink.click();
+
+
+	}
 
 }
