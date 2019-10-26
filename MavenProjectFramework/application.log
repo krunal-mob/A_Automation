@@ -1,0 +1,15 @@
+2019-10-26 22:10:55,950  INFO [main] HomePageTest:36 - INVOKING initialization() method
+2019-10-26 22:11:02,934  INFO [main] HomePageTest:40 -  initialization() method successfully invoked
+2019-10-26 22:11:11,312  INFO [main] HomePageTest:53 - Starting homePagetitleTest
+2019-10-26 22:11:11,548  INFO [main] HomePageTest:97 - Browser Successfully closed
+2019-10-26 22:11:11,553  INFO [main] HomePageTest:36 - INVOKING initialization() method
+2019-10-26 22:11:16,171  INFO [main] HomePageTest:40 -  initialization() method successfully invoked
+2019-10-26 22:11:24,880  INFO [main] HomePageTest:84 - Starting verifyContactLinkTest
+2019-10-26 22:11:25,194  INFO [main] HomePageTest:97 - Browser Successfully closed
+2019-10-26 22:11:25,199  INFO [main] HomePageTest:36 - INVOKING initialization() method
+2019-10-26 22:11:29,482  INFO [main] HomePageTest:40 -  initialization() method successfully invoked
+2019-10-26 22:11:39,170  INFO [main] HomePageTest:65 - Starting UserNameDisplayTest
+2019-10-26 22:11:39,435  INFO [main] HomePageTest:97 - Browser Successfully closed
+2019-10-26 22:11:39,436  INFO [main] HomePageTest:36 - INVOKING initialization() method
+2019-10-26 22:11:48,337  INFO [main] HomePageTest:40 -  initialization() method successfully invoked
+2019-10-26 22:12:00,955  INFO [main] HomePageTest:97 - Browser Successfully closed

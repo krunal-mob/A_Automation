@@ -1,5 +1,6 @@
 package com.aut.qa.testScripts;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -17,7 +18,9 @@ public class HomePageTest extends TestBase {
 	HomePage2 homePage;
 	TestUtil testUtil;
 	ContactsPage contactPage;
-
+	Logger log = Logger.getLogger(HomePageTest.class);
+	
+	
 	public HomePageTest() {
 
 		super();
@@ -25,8 +28,17 @@ public class HomePageTest extends TestBase {
 
 
 	@BeforeMethod
+	
 	public void setUp() throws InterruptedException {
+		
+		
+		
+		log.info("INVOKING initialization() method");
+		
 		initialization();
+		
+		log.info(" initialization() method successfully invoked");
+		
 		login = new LoginPage1();
 		homePage = login.login(prop.getProperty("username"), prop.getProperty("password"));
 		testUtil= new TestUtil();
@@ -38,16 +50,20 @@ public class HomePageTest extends TestBase {
 	@Test (priority = 0)
 	public void homePagetitleTest() {
 
+		log.info("Starting homePagetitleTest");
+		
 		String homePgaeTitle =driver.getTitle();
 
 		Assert.assertEquals(homePgaeTitle, "CRMPRO", "HomePage Title does not match");
 
+		
 	}
 
 	@Test(priority = 1)
 	public void UserNameDisplayTest() {
 
-
+		log.info("Starting UserNameDisplayTest");
+		
 		testUtil.switchToMainPanelFrame();
 		boolean flag = homePage.verifyUserNameDisplay();
 		Assert.assertTrue(flag);
@@ -65,6 +81,8 @@ public class HomePageTest extends TestBase {
 	@Test
 	public void verifyContactLinkTest() {
 
+		log.info("Starting verifyContactLinkTest");
+		
 		testUtil.switchToMainPanelFrame();
 		contactPage = homePage.clickOnContactsLink();
 
@@ -76,6 +94,7 @@ public class HomePageTest extends TestBase {
 	public void tearDown() {
 		driver.close();
 
+		log.info("Browser Successfully closed");
 	}
 
 

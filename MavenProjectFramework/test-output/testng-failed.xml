@@ -3,14 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.aut.qa.testScripts.ContactsPageTest">
+      <class name="com.aut.qa.testScripts.HomePageTest">
         <methods>
-          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifyContactsLabel"/>
-          <include name="selectContactsName"/>
+          <include name="verifyUserNametest"/>
+          <include name="setUp"/>
+          <include name="verifyContactLinkTest"/>
+          <include name="UserNameDisplayTest"/>
         </methods>
-      </class> <!-- com.aut.qa.testScripts.ContactsPageTest -->
+      </class> <!-- com.aut.qa.testScripts.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

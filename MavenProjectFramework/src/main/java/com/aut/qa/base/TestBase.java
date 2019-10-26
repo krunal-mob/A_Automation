@@ -22,7 +22,8 @@ public class TestBase {
 
 	public	static WebDriver driver;
 
-	static public Properties prop;
+	public static  Properties prop;
+
 	
 
 	//Constructor
@@ -36,7 +37,7 @@ public class TestBase {
 			try {
 
 				prop.load(fis);
-				
+
 				System.out.println(prop.getProperty("browser"));
 
 			} catch (IOException e) {
@@ -47,7 +48,7 @@ public class TestBase {
 
 		} catch (FileNotFoundException e) {
 			//e.printStackTrace();
-			
+
 			System.out.println("tushar");
 		}
 
@@ -56,13 +57,15 @@ public class TestBase {
 	public static void initialization() {
 
 		String BROWSER = prop.getProperty("browser");
-		
+
 
 		if (BROWSER.equalsIgnoreCase("chrome")) {
 
 			System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/TechBodhi/Drivers/chromedriver 3");
+			
 
 			driver = new ChromeDriver();
+			
 		}
 
 		else if(BROWSER.equalsIgnoreCase("FF")) {
@@ -93,11 +96,11 @@ public class TestBase {
 			System.out.println("This is an INVALID BROWSER");
 		}
 
-		
-		
-		
-		
-		
+
+
+
+
+
 
 		driver.manage().deleteAllCookies();
 

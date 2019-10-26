@@ -1,49 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42580" started-at="2019-10-25T21:46:22 IST" finished-at="2019-10-25T21:47:05 IST">
+  <suite name="Default suite" duration-ms="65057" started-at="2019-10-26T22:10:55 IST" finished-at="2019-10-26T22:12:00 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42580" started-at="2019-10-25T21:46:22 IST" finished-at="2019-10-25T21:47:05 IST">
-      <class name="com.aut.qa.testScripts.ContactsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aut.qa.testScripts.ContactsPageTest@4bbfb90a]" name="setUp" is-config="true" duration-ms="12861" started-at="2019-10-25T21:46:22 IST" finished-at="2019-10-25T21:46:35 IST">
+    <test name="Default test" duration-ms="65057" started-at="2019-10-26T22:10:55 IST" finished-at="2019-10-26T22:12:00 IST">
+      <class name="com.aut.qa.testScripts.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aut.qa.testScripts.HomePageTest@7a9273a8]" name="setUp" is-config="true" duration-ms="15349" started-at="2019-10-26T22:10:55 IST" finished-at="2019-10-26T22:11:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyContactsLabel()[pri:0, instance:com.aut.qa.testScripts.ContactsPageTest@4bbfb90a]" name="verifyContactsLabel" duration-ms="1413" started-at="2019-10-25T21:46:35 IST" finished-at="2019-10-25T21:46:37 IST">
+        <test-method status="PASS" signature="homePagetitleTest()[pri:0, instance:com.aut.qa.testScripts.HomePageTest@7a9273a8]" name="homePagetitleTest" duration-ms="80" started-at="2019-10-26T22:11:11 IST" finished-at="2019-10-26T22:11:11 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyContactsLabel -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aut.qa.testScripts.ContactsPageTest@4bbfb90a]" name="tearDown" is-config="true" duration-ms="134" started-at="2019-10-25T21:46:37 IST" finished-at="2019-10-25T21:46:37 IST">
+        </test-method> <!-- homePagetitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aut.qa.testScripts.HomePageTest@7a9273a8]" name="tearDown" is-config="true" duration-ms="166" started-at="2019-10-26T22:11:11 IST" finished-at="2019-10-26T22:11:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aut.qa.testScripts.ContactsPageTest@4bbfb90a]" name="setUp" is-config="true" duration-ms="12109" started-at="2019-10-25T21:46:37 IST" finished-at="2019-10-25T21:46:49 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aut.qa.testScripts.HomePageTest@7a9273a8]" name="setUp" is-config="true" duration-ms="13322" started-at="2019-10-26T22:11:11 IST" finished-at="2019-10-26T22:11:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="selectContactsName()[pri:1, instance:com.aut.qa.testScripts.ContactsPageTest@4bbfb90a]" name="selectContactsName" duration-ms="1126" started-at="2019-10-25T21:46:49 IST" finished-at="2019-10-25T21:46:50 IST">
+        <test-method status="PASS" signature="verifyContactLinkTest()[pri:0, instance:com.aut.qa.testScripts.HomePageTest@7a9273a8]" name="verifyContactLinkTest" duration-ms="134" started-at="2019-10-26T22:11:24 IST" finished-at="2019-10-26T22:11:25 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectContactsName -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aut.qa.testScripts.ContactsPageTest@4bbfb90a]" name="tearDown" is-config="true" duration-ms="115" started-at="2019-10-25T21:46:50 IST" finished-at="2019-10-25T21:46:50 IST">
+        </test-method> <!-- verifyContactLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aut.qa.testScripts.HomePageTest@7a9273a8]" name="tearDown" is-config="true" duration-ms="184" started-at="2019-10-26T22:11:25 IST" finished-at="2019-10-26T22:11:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aut.qa.testScripts.ContactsPageTest@4bbfb90a]" name="setUp" is-config="true" duration-ms="12573" started-at="2019-10-25T21:46:50 IST" finished-at="2019-10-25T21:47:03 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aut.qa.testScripts.HomePageTest@7a9273a8]" name="setUp" is-config="true" duration-ms="13964" started-at="2019-10-26T22:11:25 IST" finished-at="2019-10-26T22:11:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateCreateNewContact()[pri:2, instance:com.aut.qa.testScripts.ContactsPageTest@4bbfb90a]" name="validateCreateNewContact" duration-ms="2092" started-at="2019-10-25T21:47:03 IST" finished-at="2019-10-25T21:47:05 IST">
+        <test-method status="PASS" signature="UserNameDisplayTest()[pri:1, instance:com.aut.qa.testScripts.HomePageTest@7a9273a8]" name="UserNameDisplayTest" duration-ms="138" started-at="2019-10-26T22:11:39 IST" finished-at="2019-10-26T22:11:39 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateCreateNewContact -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aut.qa.testScripts.ContactsPageTest@4bbfb90a]" name="tearDown" is-config="true" duration-ms="118" started-at="2019-10-25T21:47:05 IST" finished-at="2019-10-25T21:47:05 IST">
+        </test-method> <!-- UserNameDisplayTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aut.qa.testScripts.HomePageTest@7a9273a8]" name="tearDown" is-config="true" duration-ms="129" started-at="2019-10-26T22:11:39 IST" finished-at="2019-10-26T22:11:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.aut.qa.testScripts.ContactsPageTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.aut.qa.testScripts.HomePageTest@7a9273a8]" name="setUp" is-config="true" duration-ms="21217" started-at="2019-10-26T22:11:39 IST" finished-at="2019-10-26T22:12:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyUserNametest()[pri:2, instance:com.aut.qa.testScripts.HomePageTest@7a9273a8]" name="verifyUserNametest" duration-ms="100" started-at="2019-10-26T22:12:00 IST" finished-at="2019-10-26T22:12:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserNametest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.aut.qa.testScripts.HomePageTest@7a9273a8]" name="tearDown" is-config="true" duration-ms="201" started-at="2019-10-26T22:12:00 IST" finished-at="2019-10-26T22:12:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.aut.qa.testScripts.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,0 +1,40 @@
+Q1) What is log?
+Ans. Capturing info/activities at the time of program execution.
+
+Q2) Types of logs:
+Ans.    //1. info
+		//2. warn
+		//3. debug
+		//4. fatal
+		
+Q3) How to generate the logs? 
+Ans. Use Apache log4j API.
+Log4j is a fast, flexible and reliable logging framework (APIS) written in Java
+In Log4j, we use log statements rather than SOPL statements in the code to know the 
+status of a project while it is executing.
+
+Log4j has three principal components : Loggers , Appenders , Layout.
+
+Loggers : It is responsible for logging information.
+
+Appenders : It is used to deliver LogEvents to their destination. 
+It decides what will happen with log information. In simple words, 
+it is used to write the logs in file. Following are few types of Appenders
+ConsoleAppender logs to standard output
+File appender prints logs to some file
+Rolling file appender to a file with maximum size
+
+Layouts: It is responsible for formatting logging information in different styles.
+
+Q4) How it works?
+Ans. It reads log 4j configuration from log4j.properties file from src/main/resources folder.
+
+
+We can use the Logger class to get the 4 types of Info ;
+
+Logger log = Logger.getLogger(ClassName.class);
+
+ a. log.info("launching chrome broswer");
+ b. log.warn("Hey this just a warning message");
+ c. log.fatal("hey this is just fatal error message");
+ d. log.debug("this is debug message");
