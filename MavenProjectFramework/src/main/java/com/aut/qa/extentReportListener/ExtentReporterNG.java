@@ -19,14 +19,20 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
 public class ExtentReporterNG implements IReporter {
-	
+
 	private ExtentReports extent;
 
 	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites,
 			String outputDirectory) {
 		extent = new ExtentReports(outputDirectory + File.separator+ "Extent.html", true);
+		extent.addSystemInfo("Host Name", "SoftwareTestingMaterial");
+		extent.addSystemInfo("Environment", "Automation Testing");
+		extent.addSystemInfo("Tester Name", "Abhishek Sarkar");
+		//loading the external xml file (i.e., extent-config.xml) which was placed under the base directory
+		//You could find the xml file below. Create xml file in your project and copy past the code mentioned below
+		extent.loadConfig(new File(System.getProperty("user.dir")+"/Extent-Config.xml"));
 		//extent = new ExtentReports(System.getProperty("user.dir") + "/test-output/Extent.html", true);
-		
+
 		for (ISuite suite : suites) {
 			Map<String, ISuiteResult> result = suite.getResults();
 
@@ -36,7 +42,7 @@ public class ExtentReporterNG implements IReporter {
 				buildTestNodes(context.getPassedTests(), LogStatus.PASS);
 				buildTestNodes(context.getFailedTests(), LogStatus.FAIL);
 				buildTestNodes(context.getSkippedTests(), LogStatus.SKIP);
-				//buildTestNodes(context.getSkippedTests(), LogStatus.INFO);
+				buildTestNodes(context.getSkippedTests(), LogStatus.INFO);
 			}
 		}
 
@@ -74,4 +80,17 @@ public class ExtentReporterNG implements IReporter {
 		calendar.setTimeInMillis(millis);
 		return calendar.getTime();
 	}
+
+	public void init() {
+
+
+
+
+
+
+	}
+
+
+
+
 }

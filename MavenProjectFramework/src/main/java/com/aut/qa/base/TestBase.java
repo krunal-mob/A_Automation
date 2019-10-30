@@ -24,7 +24,7 @@ public class TestBase {
 
 	public static  Properties prop;
 
-	
+
 
 	//Constructor
 	public TestBase()  {
@@ -38,7 +38,7 @@ public class TestBase {
 
 				prop.load(fis);
 
-				System.out.println(prop.getProperty("browser"));
+
 
 			} catch (IOException e) {
 
@@ -47,9 +47,9 @@ public class TestBase {
 
 
 		} catch (FileNotFoundException e) {
-			//e.printStackTrace();
+			e.printStackTrace();
 
-			System.out.println("tushar");
+			;
 		}
 
 	}
@@ -62,10 +62,10 @@ public class TestBase {
 		if (BROWSER.equalsIgnoreCase("chrome")) {
 
 			System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/TechBodhi/Drivers/chromedriver 3");
-			
+
 
 			driver = new ChromeDriver();
-			
+
 		}
 
 		else if(BROWSER.equalsIgnoreCase("FF")) {

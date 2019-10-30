@@ -16,9 +16,9 @@
 
 			<class name="com.aut.qa.testScripts.LoginPageTest" />
 
-			<class name="com.aut.qa.testScripts.HomePageTest" />
+			<!-- <class name="com.aut.qa.testScripts.HomePageTest" />
 
-			<class name="com.aut.qa.testScripts.ContactsPageTest" />
+			<class name="com.aut.qa.testScripts.ContactsPageTest" /> -->
 
 
 		</classes>
