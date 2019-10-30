@@ -5,8 +5,7 @@
 
 	<listeners>
 
-		<listener
-			class-name="com.aut.qa.extentReportListener.ExtentReporterNG" />
+		<listener class-name="com.aut.qa.extentReportListener.ExtentReporterNG" />
 
 	</listeners>
 
