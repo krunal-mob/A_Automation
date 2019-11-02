@@ -28,17 +28,31 @@ public class TestUtil extends TestBase  {
 		driver.switchTo().frame("leftpanel");
 
 	} 
-	
-	
-	
+
+
+	//This screenshot method is for general utility whenever we want to take the screenshot in 
+	//our test scripts
 	public static void takeScreenshotAtEndOfTest() throws IOException {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		
+
 		String currentDir = System.getProperty("user.dir");
 
 		FileUtils.copyFile(scrFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));
 
-		}
+	}
+	
+
+	//This screenshot method is created for testNG Listener for the failedTestCases
+	public static void takeScreenshotFailedTest(String testMethodName) throws IOException {
+		
+		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+
+		
+
+		FileUtils.copyFile(scrFile, new File("/Users/asarkar/Desktop/GitHub_Project/Automation/MavenProjectFramework/FailedTestCaseScreenShots/" + testMethodName  + "_FailedShot.jpeg" ));
+
+	}
+
 
 }
 

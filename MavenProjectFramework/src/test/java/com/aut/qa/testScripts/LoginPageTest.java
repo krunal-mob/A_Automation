@@ -1,13 +1,20 @@
 package com.aut.qa.testScripts;
 
 import org.testng.Assert;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.aut.qa.base.TestBase;
 import com.aut.qa.pages.HomePage2;
 import com.aut.qa.pages.LoginPage1;
+
+import testNGListener.TestNGListener;
+
+
+@Listeners(testNGListener.TestNGListener.class)
 
 public class LoginPageTest extends TestBase {
 
@@ -32,7 +39,7 @@ public class LoginPageTest extends TestBase {
 	}
 
 	//1
-	@Test(priority = 0)
+	@Test(priority = 0 , enabled = false)
 	public void loginPagetitleTest() {
 
 		String LoginTitle = loginPage.validateLoginTitle();
@@ -42,7 +49,7 @@ public class LoginPageTest extends TestBase {
 	}
 
 	//2
-	@Test (priority = 1)
+	@Test (priority = 1, enabled = false)
 	public void CRMImageTest() {
 		boolean Flag = loginPage.validateCRMImagePresent();
 
@@ -50,12 +57,19 @@ public class LoginPageTest extends TestBase {
 
 	}
 
-	@Test (priority = 2)
+	@Test (priority = 2, enabled = false)
 	public void loginTest() throws InterruptedException {
 
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 
 
+	}
+	
+	@Test
+	public void failMethod3()	{
+		
+		Assert.assertEquals(false, true);
+		
 	}
 
 

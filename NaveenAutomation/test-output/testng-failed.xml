@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG_1.GoogleTest_2">
+      <class name="basicSelenium.Excelitas">
         <methods>
-          <include name="logoTest"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="testMethod"/>
         </methods>
-      </class> <!-- testNG_1.GoogleTest_2 -->
+      </class> <!-- basicSelenium.Excelitas -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
