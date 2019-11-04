@@ -41,8 +41,8 @@ public class DynamicWebTable_13 {
 		driver.findElement(By.xpath("//input[@class='btn btn-small']")).click();
 
 		Thread.sleep(2000);
+		
 		//Click on Contact link
-
 		driver.switchTo().frame("mainpanel");
 
 		driver.findElement(By.xpath("//a[contains(text(),'Contacts')]")).click();
