@@ -16,6 +16,8 @@ public class ArrayList_ClassConcept {
 		A.add(27);
 		A.add('M');
 		A.add(true);
+		A.set(5, "Rony");
+		
 		
 
 		System.out.println(A); // Will print the elements in list manner in [ ] box seperated by comma

@@ -17,16 +17,16 @@ public class PatternProgram4 {
 	public static void printNums(int n) 
     { 
         // initialising starting number 
-        int i, j, num=1; 
+        int num=1; 
           
         // outer loop to handle number of rows 
         // n in this case 
-        for(i=0; i<n; i++) 
+        for(int i=0; i<n; i++) 
         { 
   
             // without re assigning num 
             // num = 1; 
-            for(j=0; j<=i; j++) 
+            for(int j=0; j<=i; j++) 
             { 
                 // printing num with a space 
                 System.out.print(num+ " "); 

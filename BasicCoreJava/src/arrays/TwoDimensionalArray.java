@@ -15,8 +15,8 @@ public class TwoDimensionalArray {
 		
 		//Row 1
 	
-		data[0][0]= "U1";
-		data[0][1]= "P1";
+		data[0][0]= "U1"; //Column 1 
+		data[0][1]= "P1"; //Column 2 
 		
 		//Row 2
 		

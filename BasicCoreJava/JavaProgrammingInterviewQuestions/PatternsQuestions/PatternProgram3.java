@@ -17,21 +17,21 @@ public class PatternProgram3 {
 
 	public static void printNums(int n) 
 	{ 
-		int i, j, num; 
+		int num; 
 
 		// outer loop to handle number of rows 
 		//  n in this case 
-		for(i=0; i<n; i++) 
+		for(int i=0; i<n; i++) 
 		{ 
 			// initialising starting number 
 			num=1; 
 
 			//  inner loop to handle number of columns 
 			//  values changing acc. to outer loop 
-			for(j=0; j<=i; j++) 
+			for(int j=0; j<=i; j++) 
 			{ 
 				// printing num with a space  
-				System.out.print(num+ " "); 
+				System.out.print(num + " "); 
 
 				//incrementing value of num 
 				num++; 

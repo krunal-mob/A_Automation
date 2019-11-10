@@ -10,9 +10,9 @@ public class DuplicteCharactersInString {
 
 	public static void main(String[] args) {
 
-		String str = "javaj";
+		String str = "jAvaj";
 
-		char arr[] = str.toCharArray(); //toCharArray() returns the array of char , breaks the given string into its chars 
+		char arr[] = str.toLowerCase().toCharArray(); //toCharArray() returns the array of char , breaks the given string into its chars 
 
 
 		Map<Character, Integer> map = new HashMap<Character, Integer>();
@@ -42,7 +42,7 @@ public class DuplicteCharactersInString {
 			
 			
 			if (e.getValue()>1) {
-				System.out.println("The repeated character is  -- "+e.getKey() + "The Count is ");
+				System.out.println("The repeated character is  -- "+e.getKey()+ "  "  + "The Count is--> " + e.getValue());
 				
 			}
 		}

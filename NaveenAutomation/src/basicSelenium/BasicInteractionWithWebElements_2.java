@@ -81,8 +81,13 @@ public class BasicInteractionWithWebElements_2 {
 		driver.findElement(By.xpath("//textarea[@name='g2599-comment']")).clear();
 	
 		//Whether a Web Element is enabled/displayed/Selected or not --> Here checking the Radio button --> Post Graduate
+		//isDisplayed() is the method used to verify a presence of a web element within the webpage
 		Boolean displayFlag = driver.findElement(By.xpath("//input[@value='Post Graduate']")).isDisplayed();
+		
+		//isEnabled() is the method used to verify if the web element is enabled or disabled within the webpage.
 		Boolean elabledFlag = driver.findElement(By.xpath("//input[@value='Post Graduate']")).isEnabled();
+		
+		//sSelected() is the method used to verify if the web element is selected or not
 		Boolean selectedFlag = driver.findElement(By.xpath("//input[@value='Post Graduate']")).isSelected();
 		
 		System.out.println("The Radio button is Displayed ---" + displayFlag);
@@ -109,10 +114,10 @@ public class BasicInteractionWithWebElements_2 {
 		driver.switchTo().alert().accept();
 		
 		//Dismiss the Alert
-		//driver.switchTo().alert().dismiss();
+		driver.switchTo().alert().dismiss();
 		
 		//To send some data to the Alert Box
-		//driver.switchTo().alert().sendKeys("Text");
+		driver.switchTo().alert().sendKeys("Text");
 		
 		
 		

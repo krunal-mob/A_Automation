@@ -10,7 +10,7 @@ public class PalindromeNumber {
 	public static void main(String[] args) {
 
 
-		         isPalindrome(10081);
+		         isPalindrome(10001);
 
 	}
 
@@ -20,18 +20,20 @@ public class PalindromeNumber {
 
 
 		int remainder=0;
-		int sum=0;
-		int temp =0;
+		
+		int rev=0;
+		
+		int originalNum  = num;;
 
-		temp = num;
+		
 
 		while (num>0) {
 			remainder = num % 10;
-			sum = (sum * 10 ) + remainder;
+			rev = (rev * 10 ) + remainder;
 			num = num/10;
 		}
 
-		if (temp == sum) {
+		if (rev == originalNum) {
 
 			System.out.println("The Number is Palindrome");
 

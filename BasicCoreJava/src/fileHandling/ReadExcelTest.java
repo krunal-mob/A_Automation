@@ -36,7 +36,7 @@ public class ReadExcelTest {
     
 		HSSFWorkbook WB = new HSSFWorkbook(file);
 		
-		HSSFSheet sheet=WB.getSheet("Sheet1"); 
+		HSSFSheet sheet=WB.getSheet("Sheet1");
 		// Return type can be identified by simply hovering over the method/
 		// In this case the return type of getSheet is HSSFSheet.
 

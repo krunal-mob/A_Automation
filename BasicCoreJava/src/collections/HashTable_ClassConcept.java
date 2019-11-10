@@ -19,6 +19,7 @@ public class HashTable_ClassConcept {
 
 		System.out.println(ht.get("Gandu")); // Fetch the value on the basis of key
 
+
 		// Important Techniques --> 
 		//  1> To print all the Keys  --> Use keySet() method
 		// 2> To print all the Values --> Use Enumeration
@@ -46,25 +47,26 @@ public class HashTable_ClassConcept {
 		}
 
 
-         //Traverse the HashTable
-		
+		//Traverse the HashTable
+
 		for(Entry<String, Character> E : ht.entrySet()) {
-			
+
 			System.out.println("The Key is  "+ E.getKey());
 			System.out.println("The Value is " + E.getValue());
+
+
+
+
+
+
+
+
+
+
+
+
+
 		}
 
-
-
-
-
-
-
-
-
-
-
-
 	}
-
 }

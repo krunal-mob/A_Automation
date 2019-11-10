@@ -41,6 +41,11 @@ public class ExplicitWait_11 {
 		
 		
 		//Explicit wait is for specific elements property
+		//Types of Explicit Wait
+		//1. WebDriverWait
+		//2. FluentWait --> FluentWait can define the maximum amount of time to wait for a 
+		//specific condition and frequency with which to check the condition before throwing 
+		//an “ElementNotVisibleException” exception.
 		WebDriverWait wait = new WebDriverWait(driver, 5);
 		//1. visibilityOf
 		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//a[@title='Shirts']"))));

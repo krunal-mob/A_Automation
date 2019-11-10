@@ -3,16 +3,18 @@ package generalProgramming;
 public class HowToReverseAnInteger {
 
 	
-	//Two ways 1> Learn the below code 
-	//2> Convert to stringProgramming/StringBuffer using Wrapper Class and the apply string reverse or 
-	// reverse method from StringBuffer.
-	//
+	//Logic Explanation 
+	//Step 1 — Isolate the last digit in number --> lastDigit = number % 10
+	//Step 2 — Append lastDigit to reverse --> reverse = (reverse * 10) + lastDigit
+	//Step 3 - Remove last digit from number --> number = number / 10
 	
 //	//Learn this code
 //	// USE MAMD [Multiply , addition, modulus , division all with 10]
 	public static void main(String[] args) {
+	
+		System.out.println(revNumber(189));
 		
-    int i = 2009;
+    /*int i = 2009;
     
     int rev =0;
     
@@ -23,10 +25,22 @@ public class HowToReverseAnInteger {
     }
 
     System.out.println(rev);  
-    }
+    }*/
 		
-	
-	
+	}
+	public static int revNumber(int num) {
+		
+		int rev = 0;
+		
+		while (num>0) {
+			
+			rev = (num % 10) + (rev *10);
+			
+			num = num/10;
+		}
+		return rev;
+		
+	}
 	
 	
 	

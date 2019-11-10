@@ -7,7 +7,7 @@ public class SmallestAndLargestNumberInArray {
 
 
 
-		int numbers[] = {1,-1000 ,20 , -90 , 100, 1000};
+		int numbers[] = {1,-1000 ,20 , -90 , 100, 10001};
 
 		int largest = numbers[0];
 		int smallest = numbers[0];

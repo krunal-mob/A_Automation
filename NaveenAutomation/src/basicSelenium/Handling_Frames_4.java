@@ -56,8 +56,10 @@ public class Handling_Frames_4 {
 		
 		// How to switch back to the Main Frame
 		
+		//This will pass the control to the imminent parent frame of the current frame
 		driver.switchTo().parentFrame();  //1st Way
 		
+		//This will pass the control to the main document which contains the iframes
 	    driver.switchTo().defaultContent(); //2nd Way
 		
 		

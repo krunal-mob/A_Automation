@@ -1,7 +1,11 @@
 package arrays;
 
+import java.lang.reflect.Method;
+
 public class ObjectArray {
 
+	String a = "abhi";
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -15,7 +19,7 @@ public class ObjectArray {
 		
 		System.out.println(objArray[4]);
 		
-		
+	
 		
 		//Enhanced for loop
 		
@@ -28,6 +32,12 @@ public class ObjectArray {
 		
 		
 		
+		
+		
+		
 	}
 
+	
+	
+	
 }

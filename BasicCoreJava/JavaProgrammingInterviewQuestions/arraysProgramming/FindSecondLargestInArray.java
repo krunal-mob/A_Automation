@@ -7,7 +7,7 @@ public class FindSecondLargestInArray {
 
 
 
-		int arr[] = { 14, 46, 47, 86,87, 92, 52, 48, 36, 66, 85 };
+		int [] arr = { 1, 2,3 ,900};
 
 		int largest = arr[0];
 

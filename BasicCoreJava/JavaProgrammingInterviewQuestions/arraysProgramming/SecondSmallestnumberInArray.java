@@ -6,9 +6,9 @@ public class SecondSmallestnumberInArray {
 		
 		int[] a = {-5, -4, 0, 2, 10, 30, -3};
 		
-	    int smallest = 0;
+	    int smallest = Integer.MAX_VALUE;
 	    
-	    int secondSmallest = 0;
+	    int secondSmallest = Integer.MAX_VALUE;
 	    
 	    for (int i = 0; i < a.length; i++) 
 	    {

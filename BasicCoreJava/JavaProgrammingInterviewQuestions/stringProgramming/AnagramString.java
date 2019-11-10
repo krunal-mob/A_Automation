@@ -11,7 +11,8 @@ public class AnagramString {
 	public static void main(String[] args) {
 
 
-		String str1 = "army"; String str2 = "mary";
+		String str1 = "army"; 
+		String str2 = "mary";
 
 		char [] arr1 = str1.toLowerCase().toCharArray(); 
 		char [] arr2 = str2.toLowerCase().toCharArray();

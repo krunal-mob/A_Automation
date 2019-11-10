@@ -18,7 +18,7 @@ public class WebTableConcepts_14{
 	@Test
 	public void testMethodSWT() {
 
-		System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/TechBodhi/Drivers/chromedriver 2");
+		System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/TechBodhi/Drivers/chromedriver 3");
 
 		// Instantiate the Chrome Browser by taking WebDriver reference and ChromeDriver Object
 		WebDriver driver = new ChromeDriver();
@@ -79,21 +79,23 @@ public class WebTableConcepts_14{
 			}
 		}
 
-
+		System.out.println();
+		
 		// 2. Find number of columns for each row:
 		//We need to iterate inside the rows to get to the column, so we have to take again a rows_1 variable.
 		List<WebElement> rows_1 = table.findElements(By.tagName("tr"));
 
+		int columnCount =0;
 		for(WebElement r : rows_1) {
 
 			List<WebElement> columns = r.findElements(By.tagName("td"));
-			int columnCount = columns.size();
+			columnCount = columns.size();
 
 
 		}
 
 
-		System.out.println("");
+		System.out.println("The number of column ---> "+columnCount);
 
 		// 3. Retrieve name of book whose author is Mukesh:
 		//List is taken because there can be more that once element , otherwise if 

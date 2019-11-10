@@ -1,7 +1,7 @@
 package constructorConcept;
 
 public class CnstructorConcept {
-	//Class Variable
+	//Class/Instance Variable
 	String name;
 	int age;
 

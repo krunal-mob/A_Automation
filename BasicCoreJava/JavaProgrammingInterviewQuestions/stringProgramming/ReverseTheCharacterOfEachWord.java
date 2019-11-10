@@ -31,6 +31,18 @@ public class ReverseTheCharacterOfEachWord {
 		System.out.println(finalResult);
 
 		
+		
+		String [] s1 = finalResult.split(" ");
+		
+		String allRev = "";
+		
+		for(int i = s1.length - 1 ; i>=0 ; i--) {
+			
+			allRev = allRev + s1[i] + " ";
+			
+			
+		}
+		System.out.println(allRev);
 	}
 
 }

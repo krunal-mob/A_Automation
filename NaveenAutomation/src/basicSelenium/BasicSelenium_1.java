@@ -52,6 +52,9 @@ public class BasicSelenium_1 {
 		
 		//To Refresh the page 
 		driver.navigate().refresh();
+		driver.navigate().to(driver.getCurrentUrl());
+		 //Press F5 using KEYS operation
+		
 		
 		//To Go back to Previous page
 		driver.navigate().back();

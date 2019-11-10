@@ -7,7 +7,7 @@ public class StringBuffer_StringBuilder {
 		
 		StringBuffer sb = new StringBuffer("Abhishek");
 		
-		
+		 StringBuilder sB = new StringBuilder("ABJHI");
 		System.out.println(sb.capacity());
 		
 		sb.append("  Sarkar");

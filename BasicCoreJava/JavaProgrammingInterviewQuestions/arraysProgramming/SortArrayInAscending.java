@@ -1,5 +1,7 @@
 package arraysProgramming;
 
+import java.util.Arrays;
+
 public class SortArrayInAscending {
 
 	public static void main(String[] args) {
@@ -8,6 +10,10 @@ public class SortArrayInAscending {
 		int temp = 0;  
 
 
+		
+		
+		
+		
 		//Sort the array in ascending order    
 		for (int i = 0; i < arr.length; i++) {  
 
@@ -15,6 +21,7 @@ public class SortArrayInAscending {
 				
 				if(arr[i] > arr[j]) {    
 					
+					//swapping of two variables using third variable
 					temp = arr[i];    
 					arr[i] = arr[j];    
 					arr[j] = temp;    

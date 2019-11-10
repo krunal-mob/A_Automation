@@ -1,8 +1,10 @@
 package collections;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Set;
 import java.util.Vector;
 
 public class ListInterface {
@@ -31,11 +33,16 @@ public class ListInterface {
 		  L1.add("ABHISHEK"); 
 		  L1.add("TECH BODHI");
 		  
-		  for(String S1:L1) { System.out.println(S1);
+		  for(String S1:L1) { 
+			  
+			  System.out.println(S1);
 		  
 		  
 		  }
 		 
+		  
+		  
+		  
 		
 		
 		List<String> L3 = new Vector<String>(); 

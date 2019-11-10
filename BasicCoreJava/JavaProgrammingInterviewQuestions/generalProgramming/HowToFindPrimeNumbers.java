@@ -33,7 +33,8 @@ public class HowToFindPrimeNumbers {
 
 
 		boolean flag = isPrime(2);
-		if (flag) {
+		
+		if (flag==true) {
 
 			System.out.println("The number is Prime");
 		}
