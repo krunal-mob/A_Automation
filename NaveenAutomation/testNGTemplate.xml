@@ -3,11 +3,19 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 
-<suite name="TestNg Automation Suite" verbose="1">
+<suite name="TestNg Automation Suite" verbose="1" parallel="methods" thread-count="5"> <!-- methods , tests, classes -->
 	<!-- Verbose Attribute lets you obtain clear reports through IDE console. -->
 	<!-- There are 10 levels of Verbose, starting from 1 to 10. Verbose="10" 
 		gives more test details on console output whereas verbose="1" display less 
 		details. -->
+
+	<listeners>
+
+		<listener class-name="com.aut.qa.extentReportListener.ExtentReporterNG" />
+
+	</listeners>
+
+
 	<test name="TestNG Feature Test" preserve-order="true">
 
 		<!-- You can specify package names instead of class names: -->

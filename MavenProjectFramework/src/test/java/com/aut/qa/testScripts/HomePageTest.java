@@ -39,6 +39,7 @@ public class HomePageTest extends TestBase {
 		
 		log.info(" initialization() method successfully invoked");
 		
+		
 		login = new LoginPage1();
 		homePage = login.login(prop.getProperty("username"), prop.getProperty("password"));
 		testUtil= new TestUtil();

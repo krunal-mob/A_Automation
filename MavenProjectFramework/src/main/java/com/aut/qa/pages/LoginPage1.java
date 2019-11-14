@@ -17,7 +17,7 @@ public class LoginPage1  extends TestBase{
 	@CacheLookup
 	WebElement userName;
 	
-//	In other words, any attribute marked [@sCacheLookup] will not be searched over and 
+//	In other words, any attribute marked [@CacheLookup] will not be searched over and 
 //	over again – this is especially useful for elements that are always going to be 
 //	there (not always true for AJAX apps). It means the elements of the page will be 
 //	cached once searched. All elements used in the HomePage & LoginPage class are static 
