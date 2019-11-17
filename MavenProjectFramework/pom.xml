@@ -21,6 +21,54 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
+
+	<!-- 2. Maven Lifecycle Plugins -->
+	<build>
+		<pluginManagement>
+
+			<plugins>
+
+				<plugin>
+
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.8.1</version>
+
+					<configuration>
+						<!-- put your configurations here -->
+					</configuration>
+
+				</plugin>
+
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>3.0.0-M3</version>
+					
+					<configuration>
+
+						<suiteXmlFiles>testNG.xml</suiteXmlFiles>
+						
+						<includes>
+							<include>Sample.java</include>
+						</includes>
+						
+					</configuration>
+				</plugin>
+
+			</plugins>
+
+		</pluginManagement>
+
+	</build>
+
+
+
+
+
+
+
 	<dependencies>
 
 		<!-- 1. Selenium Webdriver Maven Dependency -->

@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -47,6 +48,13 @@ public class BasicInteractionWithWebElements_2 {
 		driver.findElement(By.xpath("//input[@name='g2599-email']")).sendKeys("sarkar.abhishek066@gmail.com");
 		//Website
 		driver.findElement(By.xpath("//input[@name='g2599-website']")).sendKeys("www.Rony.com");
+		
+		//Press Enter . Here Keys is Enumeration
+		driver.findElement(By.xpath("abhi")).sendKeys(Keys.ENTER);
+		
+		//Send In Caps
+		driver.findElement(By.xpath("abhi")).sendKeys(Keys.SHIFT,"Abhi");
+		
 		
 		//Select Dropdown
 		WebElement dropDown = driver.findElement(By.xpath("//select[@id='g2599-experienceinyears']"));

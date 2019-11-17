@@ -4,6 +4,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
 public class BasicSelenium_1 {
@@ -33,7 +35,9 @@ public class BasicSelenium_1 {
 		driver.get("https://phptravels.com/demo/");
 		//driver.navigate().to("https://phptravels.com/demo/");
 		
-		
+		//Handle https certification
+		DesiredCapabilities cap = DesiredCapabilities.chrome();
+		cap.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 		
 		//To get the Title  of  the page
 		String title=driver.getTitle();
