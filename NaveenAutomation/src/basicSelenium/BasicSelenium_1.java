@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
 public class BasicSelenium_1 {
@@ -13,6 +14,7 @@ public class BasicSelenium_1 {
 	@Test
 	public void testMethod() {
 
+		
 		System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/TechBodhi/Drivers/chromedriver 2");
 
 		// Instantiate the Chrome Browser by taking WebDriver reference and ChromeDriver Object
@@ -33,7 +35,8 @@ public class BasicSelenium_1 {
 		
 		//Open any Url (Two Ways)
 		driver.get("https://phptravels.com/demo/");
-		//driver.navigate().to("https://phptravels.com/demo/");
+		driver.navigate().to("https://phptravels.com/demo/");
+		driver.get("http://username:password@example.com");
 		
 		//Handle https certification
 		DesiredCapabilities cap = DesiredCapabilities.chrome();

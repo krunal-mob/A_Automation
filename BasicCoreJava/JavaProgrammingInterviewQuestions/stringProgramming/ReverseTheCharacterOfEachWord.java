@@ -11,6 +11,7 @@ public class ReverseTheCharacterOfEachWord {
 		String finalResult = "";
 
 		for(String word : arry) {
+			
 
 			String revWord = "";
 

@@ -18,6 +18,12 @@ public class ExceptionHandling1 {
 			System.out.println("This is not possible");
 			System.out.println(e.getMessage());
 		}
+		
+		/*
+		 * catch (ArithmeticException e) { // TODO: handle exception }
+		 *Unreachable catch block for ArithmeticException. 
+		 *It is already handled by the catch block for ArithmeticException
+		 */
 	}
 
 }

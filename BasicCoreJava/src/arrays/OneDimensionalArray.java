@@ -13,13 +13,28 @@ public class OneDimensionalArray {
 		str[4]= "Rony";
 		str[5] = "ABhijeet";
 		str[6] = "Tech Bodhi";
+
+
+
+		System.out.println(str);
+
+		System.out.println("*************");
 		
-	 
+		System.out.println("Enhanced for loop"); 
+		
+		
+		for (String S: str) {
+			
+			System.out.println(S);
+			
+			
+		}
 
-
-
-
-
+		
+		System.out.println("++++++++++++++++++++++++++");
+		
+		
+		
 		for(int i=0; i<=6; i++) {
 
 			System.out.println(str[i]); // Print all the values of arrays

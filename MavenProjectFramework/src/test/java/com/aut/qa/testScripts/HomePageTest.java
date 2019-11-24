@@ -35,6 +35,7 @@ public class HomePageTest extends TestBase {
 		
 		log.info("INVOKING initialization() method");
 		
+		
 		initialization();
 		
 		log.info(" initialization() method successfully invoked");
