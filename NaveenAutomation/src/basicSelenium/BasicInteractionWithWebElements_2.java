@@ -8,6 +8,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.pagefactory.ByAll;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
@@ -54,6 +55,9 @@ public class BasicInteractionWithWebElements_2 {
 		
 		//Send In Caps
 		driver.findElement(By.xpath("abhi")).sendKeys(Keys.SHIFT,"Abhi");
+		
+		//Extra Special locaters
+		driver.findElement(new ByAll(By.name("Name"), By.id("ID"), By.className("className"))).sendKeys("Abhishek");;
 		
 		
 		//Select Dropdown
