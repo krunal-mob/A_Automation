@@ -50,7 +50,7 @@ public class BootStrapDropDownHandling_17 {
 				
 				list.click();
 				
-				break;//was getting staleElementReferenceException without break statement
+				break;
 			}
 		}
 		

@@ -17,14 +17,13 @@ public class PatternProgram3 {
 
 	public static void printNums(int n) 
 	{ 
-		int num; 
-
+	
 		// outer loop to handle number of rows 
 		//  n in this case 
 		for(int i=0; i<n; i++) 
 		{ 
 			// initialising starting number 
-			num=1; 
+			int num=1; 
 
 			//  inner loop to handle number of columns 
 			//  values changing acc. to outer loop 
@@ -34,7 +33,7 @@ public class PatternProgram3 {
 				System.out.print(num + " "); 
 
 				//incrementing value of num 
-				num++; 
+				num = num + 1; 
 			} 
 
 			// ending line after each row 

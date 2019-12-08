@@ -15,7 +15,12 @@ public class BasicSelenium_1 {
 	public void testMethod() {
 
 		
+		//Chrome
 		System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/TechBodhi/Drivers/chromedriver 2");
+		//FireFoxx
+		System.setProperty("webdriver.gecko.marionette", "/Users/asarkar/Desktop/TechBodhi/Drivers/geckodriver");
+		//Opera 
+		System.setProperty("webdriver.opera.driver", "/Users/asarkar/Desktop/TechBodhi/Drivers/operadriver");		
 
 		// Instantiate the Chrome Browser by taking WebDriver reference and ChromeDriver Object
 		WebDriver driver = new ChromeDriver();
@@ -76,7 +81,7 @@ public class BasicSelenium_1 {
 		
 		//This method is used to destroy the instance of WebDriver. 
 		//It closes all Browser Windows associated with that driver and safely ends the session.
-        //  driver.quit();
+         driver.quit();
 		
 	
 	
