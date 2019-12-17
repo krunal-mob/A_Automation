@@ -23,6 +23,7 @@ public class RestClient {
 		//http GET request
 		HttpGet httpget = new HttpGet(url);
 
+		//Hit the GET button as postman
 		CloseableHttpResponse closablehttpresponse =httpClient.execute(httpget);
 
 		// Status Code
