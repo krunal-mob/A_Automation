@@ -16,7 +16,7 @@ public class BasicSelenium_1 {
 
 		
 		//Chrome
-		System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/TechBodhi/Drivers/chromedriver 2");
+		System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/AbhishekSarkar/TechBodhi/Drivers/chromedriver 3");
 		//FireFoxx
 		System.setProperty("webdriver.gecko.marionette", "/Users/asarkar/Desktop/TechBodhi/Drivers/geckodriver");
 		//Opera 

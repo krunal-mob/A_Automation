@@ -1,0 +1,1 @@
+Terminal : --> java -Dwebdriver.chrome.driver="/Users/asarkar/Desktop/SeleniumGRID/chromedriver 3" -jar selenium-server-standalone-3.141.59.jar -role node -hub http://192.168.0.103:4444/grid/register/

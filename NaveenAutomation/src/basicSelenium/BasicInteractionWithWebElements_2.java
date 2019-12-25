@@ -19,7 +19,8 @@ public class BasicInteractionWithWebElements_2 {
 	public void testMethod() throws InterruptedException {
 
 		
-		System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/TechBodhi/Drivers/chromedriver 2");
+		System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/AbhishekSarkar/TechBodhi/Drivers/chromedriver 2");
+		//System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/AbhishekSarkar/TechBodhi/Drivers/chromedriver3");
 
 		// Instantiate the Chrome Browser by taking WebDriver reference and ChromeDriver Object
 		WebDriver driver = new ChromeDriver();
