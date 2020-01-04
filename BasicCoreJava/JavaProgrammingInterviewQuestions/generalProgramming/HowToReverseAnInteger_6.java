@@ -1,6 +1,6 @@
 package generalProgramming;
 
-public class HowToReverseAnInteger {
+public class HowToReverseAnInteger_6 {
 
 	
 	//Logic Explanation 

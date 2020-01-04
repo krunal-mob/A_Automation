@@ -1,6 +1,6 @@
 package generalProgramming;
 
-public class PrintEvenNumber1_100  // Write a for loop to print even numbers b/w 1 to 100
+public class PrintEvenNumber_9  // Write a for loop to print even numbers b/w 1 to 100
 { 
 
 	public static void main(String[] args) {

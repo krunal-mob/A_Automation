@@ -3,26 +3,28 @@ package generalProgramming;
 public class Assignment_3 {
 
 	public static void main(String[] args) 
+	/*
+	 * Write program to display following output:-
+	 * 
+	 * 1 12 1234 12345 123456 1234567
+	 */
+
+
 	{
-		/*
-		 * Write a for loop which prints numbers from 1 to 100 but if the number is
-		 * divisible by 5, it prints divisible by 5 followed by that number;
-		 */
+
+		String a = "";
+
+		for (int i = 1 ; i<10 ; i ++) {
 
 
+			a = a + String.valueOf(i);
+			
 
-
-		for (int i=1; i<=100;i++) {
-
-			if (i%5==0)
-			{System.out.println(i + " Divisible by 5");}
-
-			else {
-
-				System.out.println(i);
-			}
+			System.out.println(a);
 
 		}
+
+		//System.out.println(a);
 
 	}
 

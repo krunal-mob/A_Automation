@@ -1,7 +1,7 @@
 
 package generalProgramming;
 
-public class Assignment_4 { 
+public class Assignment_2 { 
 	
 	// Write a for loop to find the sum of first 100 numbers(1 to 100)
 	

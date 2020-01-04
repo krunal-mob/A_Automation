@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Default suite" duration-ms="15624" started-at="2019-10-21T02:07:54 IST" finished-at="2019-10-21T02:08:10 IST">
-    <groups>
-    </groups>
-    <test name="Default test" duration-ms="15624" started-at="2019-10-21T02:07:54 IST" finished-at="2019-10-21T02:08:10 IST">
-      <class name="practiceJavaPrograms.Test">
-        <test-method status="PASS" signature="testMethod()[pri:0, instance:practiceJavaPrograms.Test@eec5a4a]" name="testMethod" duration-ms="15595" started-at="2019-10-21T02:07:54 IST" finished-at="2019-10-21T02:08:10 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod -->
-      </class> <!-- practiceJavaPrograms.Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+<testng-results skipped="0" failed="0" ignored="0"
+	total="1" passed="1">
+	<reporter-output>
+	</reporter-output>
+	<suite name="Default suite" duration-ms="15624"
+		started-at="2019-10-21T02:07:54 IST"
+		finished-at="2019-10-21T02:08:10 IST">
+		<groups>
+		</groups>
+		<test name="Default test" duration-ms="15624"
+			started-at="2019-10-21T02:07:54 IST"
+			finished-at="2019-10-21T02:08:10 IST">
+			<class name="practiceJavaPrograms.Test">
+				<test-method status="PASS"
+					signature="testMethod()[pri:0, instance:practiceJavaPrograms.Test@eec5a4a]"
+					name="testMethod" duration-ms="15595"
+					started-at="2019-10-21T02:07:54 IST"
+					finished-at="2019-10-21T02:08:10 IST">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- testMethod -->
+			</class> <!-- practiceJavaPrograms.Test -->
+		</test> <!-- Default test -->
+	</suite> <!-- Default suite -->
 </testng-results>

@@ -1,6 +1,6 @@
 package generalProgramming;
 
-public class Factorial {
+public class Factorial_4 {
 	
 	//Without using recursive --> Normal for  loop
 	public static  int factorial(int num) {

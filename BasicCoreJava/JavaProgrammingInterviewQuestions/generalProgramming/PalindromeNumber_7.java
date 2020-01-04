@@ -1,6 +1,6 @@
 package generalProgramming;
 
-public class PalindromeNumber {
+public class PalindromeNumber_7 {
 
 
 	// This is the logic for Palindrome number

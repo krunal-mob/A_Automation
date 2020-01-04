@@ -1,6 +1,6 @@
 package generalProgramming;
 
-public class HowToFindPrimeNumbers {
+public class HowToFindPrimeNumbers_5 {
 
 	// Prime Number :  a number that is divisible only by itself and 1 (e.g. 2, 3, 5, 7, 11).		
 	// 2 is the lowest prime number

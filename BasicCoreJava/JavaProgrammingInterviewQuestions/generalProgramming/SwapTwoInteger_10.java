@@ -1,6 +1,6 @@
 package generalProgramming;
 
-public class SwapTwoInteger {
+public class SwapTwoInteger_10{
 
 	public static void main(String[] args) {
 		
