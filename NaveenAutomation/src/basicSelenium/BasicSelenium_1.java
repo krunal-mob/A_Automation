@@ -41,10 +41,15 @@ public class BasicSelenium_1 {
 		//Open any Url (Two Ways)
 		driver.get("https://phptravels.com/demo/");
 		driver.navigate().to("https://phptravels.com/demo/");
+		
+		//To send username and password with the URL
 		driver.get("http://username:password@example.com");
 		
 		//Handle https certification
 		DesiredCapabilities cap = DesiredCapabilities.chrome();
+		DesiredCapabilities cap1 = DesiredCapabilities.firefox();
+		DesiredCapabilities cap2 = DesiredCapabilities.android();
+		
 		cap.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
 		
 		//To get the Title  of  the page

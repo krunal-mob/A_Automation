@@ -75,6 +75,11 @@ public class BasicInteractionWithWebElements_2 {
 		
 		selectDropdown.selectByVisibleText("5-7");
 		
+		
+		selectDropdown.getOptions(); //Fetch all the Webelements of dropdown
+		selectDropdown.getFirstSelectedOption(); // Returns a WebElement
+		selectDropdown.getAllSelectedOptions(); //Return List of WebElement
+		
 	
 		//Click on  CheckBoxes --> Select Functional testing
 		driver.findElement(By.xpath("//input[@name='g2599-expertise[]'][@value='Functional Testing']")).click();

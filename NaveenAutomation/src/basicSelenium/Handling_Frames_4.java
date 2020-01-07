@@ -20,11 +20,11 @@ public class Handling_Frames_4 {
 	 * 
 	 * We can Identify if any iFrame is present via right click and see the options for iFrame [refresh / view page source iFrame]
 	 */
-	
+
 	@Test
 	public void testMethodIframe() throws InterruptedException {
-		
-		
+
+
 		System.setProperty("webdriver.chrome.driver", "/Users/asarkar/Desktop/TechBodhi/Drivers/chromedriver 2");
 
 		// Instantiate the Chrome Browser by taking WebDriver reference and ChromeDriver Object
@@ -39,36 +39,36 @@ public class Handling_Frames_4 {
 		//Put Implicit timeout for all the elements of the script 
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-		
+
 		//Open any Url (Two Ways)
 		driver.get("http://www.globalsqa.com/demo-site/frames-and-windows/#iFrame");
-		
+
 		//To get the total number of iframes present in the page
 		int iFrameCount = driver.findElements(By.tagName("iframe")).size();
-		
+
 		System.out.println("The total number of iFrame Present: " + iFrameCount);
-		
+
 		//There are three ways to switch to iFrames
 		driver.switchTo().frame("By Index"); //1st Way
 		driver.switchTo().frame("By Name or ID"); //2nd Way
 		driver.switchTo().frame("WebElement"); //3rd Way
-		
-		
+
+
 		// How to switch back to the Main Frame
-		
+
 		//This will pass the control to the imminent parent frame of the current frame
 		driver.switchTo().parentFrame();  //1st Way
-		
+
 		//This will pass the control to the main document which contains the iframes
-	    driver.switchTo().defaultContent(); //2nd Way
-		
-		
-		
-	
-	
-	
-	
-	
-	
-	
-}}
+		driver.switchTo().defaultContent(); //2nd Way
+
+
+
+
+
+
+
+
+
+
+	}}
